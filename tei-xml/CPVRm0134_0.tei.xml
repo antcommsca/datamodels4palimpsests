@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Verona, Biblioteca Capitolare, CXXXIV</title>
+            <respStmt>
+               <resp>TEI encoded by</resp>
+               <name>Panagiotis Leontaridis</name>
+               <name>Konstantina Tsakona</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>AntCom</publisher>
+            <date>2025-06-25</date>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="CPVRm0134" type="palimpsest_manuscript">
+               <msIdentifier>
+                  <country ref="https://www.geonames.org/3175395/italian-republic.html"
+                     >Italy</country>
+                  <settlement ref="https://www.geonames.org/3164527/verona.html">Verona</settlement>
+                  <repository>Biblioteca Capitolare</repository>
+                  <idno>CXXXIV</idno>
+                  <altIdentifier type="deprecated">
+                     <idno>123</idno>
+                  </altIdentifier>
+                  <altIdentifier type="Diktyon">
+                     <idno>70779</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>CPVRm0134</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msPart n="1" type="sciptio_superior">
+                  <msIdentifier>
+                     <idno>CPVRm0134_0</idno>
+                     <msName xml:lang="el">Παρακλητική</msName>
+                     <msName xml:lang="en">Paracletica</msName>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>Ioseph the Hymnographos' New Octoechos. The grave, the plagal tones of
+                        the second and fourth (βαρύς, πλάγιος α΄, πλάγιος δ΄) survive. Fragments of
+                        the third and the plagal of the first tone (β΄, πλάγιος α΄) are also
+                        preserved.</summary>
+                     <textLang mainLang="grc">Ancient Greek (to 1453)</textLang>
+                     <msItem>
+                        <locus from="1r" to="79v">ff. 1-79</locus>
+                        <author xml:lang="en"
+                           ref="https://www.degruyterbrill.com/database/PMBZ/entry/PMBZ14598/html"
+                           >Ioseph Hymnographos</author>
+                        <title xml:lang="el">Νέα Ὀκτάηχος</title>
+                        <title xml:lang="it">Nuovo Ottoeco</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="mixed">
+                           <support>The manuscript consists of <material>parchment</material>
+                              folios, with a later <material>paper</material> insert on folio 79. A
+                              watermark is present on the second flyleaf, which is a variation of
+                              the design found at
+                                 <ref>https://www.wasserzeichen-online.de/?ref=DE8580-HAAB_Q_483_b_2</ref>,
+                              but it is missing the "M" at the bottom of the design.</support>
+                           <extent>
+                              <measure unit="folios" quantity="79">79 folios</measure>
+                              <dimensions>
+                                 <height unit="mm" quantity="270"/>
+                                 <width unit="mm" quantity="220"/>
+                              </dimensions>
+                              <formula>ii+V+79+ii</formula>
+                           </extent>
+                           <foliation>Foliation in pencil in the top right corner of each recto,
+                              using Arabic numerals. In some instances, traces of faded identical
+                              foliation are present.</foliation>
+                           <collation>
+                              <formula>xi<hi rend="sup">6</hi>–xii<hi rend="sup">6</hi>, xiii<hi
+                                    rend="sup">8</hi>–xx<hi rend="sup">8</hi>, xxi<hi rend="sup"
+                                    >3</hi></formula>
+                              <note>Modern, post-restoration collation.</note>
+                              <signatures>Gathering signatures in dark brown ink, using minuscule
+                                 Greek numerals.</signatures>
+                           </collation>
+                           <condition>The manuscript is a palimpsest consisting of three older
+                              codices, made from reused parchment of mediocre quality. Signs of
+                              damage from humidity and chemical reagents are evident on some of the
+                              parchment leaves. The manuscript is mutilated at the beginning, with
+                              10 gatherings missing. Prior to the conservation efforts of 1983-84,
+                              the gatherings were completely dismantled, as noted by Formentin
+                              (1980).</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="25 29">w 25(155)40 mm; h 30(210)30
+                              mm</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <handNote>The scriptio superior is primarily written in a single Salentine
+                           hand, identified by Arnesano (2008) as "Anonymous 3". A more recent paper
+                           insert follows the last parchment folio (fol. 79) and replaces the text
+                           of a missing original folio that would have come after f. 76v.</handNote>
+                     </handDesc>
+                     <scriptDesc>
+                        <scriptNote>Salentine Baroque Minuscule</scriptNote>
+                     </scriptDesc>
+                     <musicNotation>
+                        <p>No notation present.</p>
+                     </musicNotation>
+                     <decoDesc>
+                        <decoNote type="initials">Fully traced initials in the same ink as the main
+                           body of the text. They form an acrostic that is spelled out at the
+                           beginning of every liturgical day.</decoNote>
+                     </decoDesc>
+                     <bindingDesc>
+                        <binding contemporary="false">
+                           <p>The codex was rebound in the 20th century between two
+                                 <material>wooden</material> plates with a dark brown
+                                 <material>leather</material> joint. It features occidental binding
+                              with three raised nerve bands.</p>
+                           <decoNote>Shelfmark in latin numerals stamped in gold and centered
+                              towards the bottom of the spine.</decoNote>
+                           <condition>The original binding does not survive. The codex was rebound
+                              in the 20th century.</condition>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace ref="https://www.geonames.org/3168677/salento.html"
+                           >Salento</origPlace>
+                        <origDate notBefore="1301" notAfter="1400">14th century</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="2" type="scriptio_inferior">
+                  <msIdentifier>
+                     <idno>CPVRm0134_0A</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>Fragmentary Octoechos. Most probably the odes of Monday and Tuesday in
+                        grave tone (βαρύς).</summary>
+                     <textLang mainLang="grc">Ancient Greek (to 1453)</textLang>
+                     <msItem>
+                        <locus from="1" to="5"/>
+                        <title>Paracletica?</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="fragment">
+                        <supportDesc material="parch">
+                           <extent>
+                              <measure unit="folios" quantity="5">5 ff.</measure>
+                           </extent>
+                           <condition>Discoloured patches due to the use of chemical reagents on the
+                              parchment.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="28 29">h 25(215)35 mm; w 15(160)35
+                              mm</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <p>Hand not identified</p>
+                     </handDesc>
+                     <scriptDesc>
+                        <p>Twelfth-century script, not yet identified</p>
+                     </scriptDesc>
+                     <decoDesc>
+                        <decoNote type="initials">Initials with triangular antennae in the same ink
+                           as the main body of the text.</decoNote>
+                     </decoDesc>
+                  </physDesc>
+                  <history>
+                     <summary/>
+                     <origin>
+                        <origPlace>Undetermined</origPlace>
+                        <origDate notBefore="1101" notAfter="1200">12th century</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="3" type="scriptio_inferior">
+                  <msIdentifier>
+                     <idno>CPVRm0134_0B</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary>Fragmentary pre-metaphrastic menology of December.</summary>
+                     <textLang mainLang="grc">Ancient Greek (to 1453)</textLang>
+                     <msItem>
+                        <locusGrp>
+                           <locus from="6r" to="61v">ff. 6-61</locus>
+                           <locus from="68r" to="69v">68-69</locus>
+                           <locus from="71r" to="74r">71-74</locus>
+                           <locus from="76r" to="78v">76-78</locus>
+                        </locusGrp>
+                        <title type="desc">Premetaphrastic menology of December.</title>
+                        <msItem>
+                           <locus from="78r" to="78v">f. 78</locus>
+                           <title xml:lang="el">[Ἀθλησις τῶν ἀγίων τοῦ χριστοῦ μαρτύρων Ἀκέψιμα,
+                              Ἰωσήφ, Ἀειθαλὰ]</title>
+                        </msItem>
+                        <msItem>
+                           <locusGrp>
+                              <locus from="78v" to="78v">ff. 78v</locus>
+                              <locus from="57r" to="57v">57</locus>
+                              <locus from="74r" to="74v">74</locus>
+                              <locus from="71r" to="71v">71</locus>
+                              <locus from="56r" to="56v">56</locus>
+                              <locus from="50r" to="50v">50</locus>
+                              <locus from="53r" to="53v">53</locus>
+                              <locus from="46r" to="46v">46</locus>
+                              <locus from="51r" to="51v">51</locus>
+                              <locus from="60r" to="60v">60</locus>
+                              <locus from="47r" to="47v">47</locus>
+                              <locus from="77r" to="76v">77–76</locus>
+                              <locus from="49r" to="49v">49</locus>
+                              <locus from="58r" to="58v">58</locus>
+                              <locus from="55r" to="55v">55</locus>
+                              <locus from="48r" to="48v">48</locus>
+                              <locus from="69r" to="69v">69</locus>
+                              <locus from="45r" to="45v">45</locus>
+                              <locus from="72r" to="72v">72</locus>
+                              <locus from="61r" to="61v">61</locus>
+                              <locus from="54r" to="54v">54</locus>
+                              <locus from="59r" to="59v">59</locus>
+                              <locus from="68r" to="68v">68</locus>
+                              <locus from="73r" to="73v">73</locus>
+                              <locus from="52r" to="52v">52</locus>
+                              <locus from="15r" to="16v">15–16</locus>
+                              <locus from="19r" to="19v">19</locus>
+                              <locus from="9r" to="10v">9–10</locus>
+                              <locus from="14r" to="14r">14r</locus>
+                           </locusGrp>
+                           <title xml:lang="el">Βίος και πολιτεία τοῦ ἐν ἀγίοις πατρός ἡμων Δανιήλ
+                              τοῦ Στυλίτου</title>
+                           <incipit>Πρό γε πάντων ἀγαπητοί δίκαιον ἐστιν ἡμᾶς δοξάζειν τὸν δι’ ἡμᾶς
+                              ἐνανθρωπήσαντα</incipit>
+                           <explicit>ἐν βασιλείας Δαρείου καὶ Κύρου το ὑπἐρ σου</explicit>
+                        </msItem>
+                        <msItem>
+                           <locusGrp>
+                              <locus from="14r" to="14v">ff. 14</locus>
+                              <locus from="17r" to="18v">17–18</locus>
+                              <locus from="32r" to="32v">32</locus>
+                              <locus from="21r" to="21v">21</locus>
+                              <locus from="26r" to="26v">26</locus>
+                              <locus from="23r" to="23v">23</locus>
+                              <locus from="28r" to="28v">28</locus>
+                              <locus from="33r" to="33v">33</locus>
+                              <locus from="31r" to="31v">31</locus>
+                              <locus from="42r" to="42v">42</locus>
+                              <locus from="39r" to="39v">39</locus>
+                              <locus from="6r" to="6v">6</locus>
+                              <locus from="34r" to="34v">34</locus>
+                              <locus from="8r" to="8v">8</locus>
+                           </locusGrp>
+                           <title xml:lang="el">[Βίος τοῦ ἐν ἁγίοις πατρὸς ἡμῶν καὶ θαυματουργοῦ
+                              Σπυρίδωνος ἐπισκόπου γενομένου πόλεως Τριμιθούντων]</title>
+                           <incipit>«Ἐν ἀρχῇ ἦν ὁ λόγος,» φησὶν Ἰωάννης ὁ εὐαγγελιστὴς καὶ
+                              θεολόγος</incipit>
+                           <explicit>πρὸς τὴν γνησιότητά σου θαρρῶν εἰς τὴν σὴν εὐλάβειαν ὡς μετὰ
+                              πίστεως</explicit>
+                        </msItem>
+                        <msItem>
+                           <locusGrp>
+                              <locus from="37r" to="38v">ff. 37–38</locus>
+                              <locus from="43r" to="44v">43–44</locus>
+                              <locus from="11r" to="11v">11</locus>
+                              <locus from="40r" to="40v">40</locus>
+                              <locus from="13r" to="13v">13</locus>
+                              <locus from="7r" to="7v">7</locus>
+                              <locus from="12r" to="12v">12</locus>
+                              <locus from="20r" to="20v">20</locus>
+                              <locus from="41r" to="41v">41</locus>
+                              <locus from="35r" to="35v">35</locus>
+                              <locus from="22r" to="22v">22</locus>
+                           </locusGrp>
+                           <title xml:lang="el">[Ἀθλησις τῶν άγίων μαρτύρων Ευστρατίου, Αυξεντίου,
+                              Ευγενίου, Μαρδαρίου καὶ Ορέστου]</title>
+                           <incipit>Βασιλικῶν θεσπισμάτων καθ’ ἑκάστην, ὡς εἰπεῖν, των
+                              παρακελευομένων</incipit>
+                           <explicit>καὶ σοφίας καὶ χάριτι ποιεῖ ὁ μακάριος ἐπίσκοπος</explicit>
+                        </msItem>
+                        <msItem>
+                           <locusGrp>
+                              <locus from="22v" to="22v">ff. 22v</locus>
+                              <locus from="25r" to="25v">25</locus>
+                              <locus from="36r" to="36v">36</locus>
+                              <locus from="29r" to="29v">29</locus>
+                              <locus from="24r" to="24v">24r</locus>
+                           </locusGrp>
+                           <title xml:lang="el">[Μαρτύριον τοῦ ἁγίου ἱερομάρτυρος
+                              Ἐλευθερίου]</title>
+                           <incipit>δὲ καὶ γενόμενον εἰς πρεσβύτερον κατεκόσμησεν</incipit>
+                           <explicit>[ἡ δόξα] εἰς τοὺς αἰῶνας τῶν αἰώνων.</explicit>
+                        </msItem>
+                        <msItem>
+                           <locusGrp>
+                              <locus from="24r" to="24v">ff. 24</locus>
+                              <locus from="27r" to="27v">27</locus>
+                              <locus from="30r" to="30v">30</locus>
+                           </locusGrp>
+                           <title xml:lang="el">Μαρτύριον τοῦ ἀγίου μάρτυρος Βονιφατίου </title>
+                           <incipit>ὁ θεός, ὁ φιλάνθρωπος, ὁ προνοών</incipit>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="fragment">
+                        <supportDesc material="parch">
+                           <extent>
+                              <measure unit="folios" quantity="65">65 folios</measure>
+                           </extent>
+                           <condition>Damage from at least three different types of chemical
+                              reagents in certain folios.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="2" writtenLines="31 33">w 20[(65)28(67)]35 mm; h ?(250)?
+                              mm</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote>Southern italian copyist.</handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote type="initials">Initials with double traced stems.</decoNote>
+                     </decoDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Southern Italy?</origPlace>
+                        <origDate notBefore="1001" notAfter="1100">11th century</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="4" type="scriptio_inferior">
+                  <msIdentifier>
+                     <idno>CPVRm0134_0C</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="grc">Ancient Greek (to 1453)</textLang>
+                     <msItem>
+                        <locusGrp>
+                           <locus from="62r" to="67v">ff. 62-67</locus>
+                           <locus from="70r" to="70v">70</locus>
+                           <locus from="75r" to="75v">75</locus>
+                        </locusGrp>
+                        <msItem>
+                           <author ref="https://viaf.org/en/viaf/305214868">John Chrysostom</author>
+                           <title>In annuntiationem Beatae Mariae Virginis</title>
+                        </msItem>
+                        <msItem>
+                           <title>Vita Mariae Aegyptiacae</title>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="fragment">
+                        <supportDesc material="parch">
+                           <support/>
+                           <extent>
+                              <measure unit="folios" quantity="8">8 folios</measure>
+                           </extent>
+                           <condition>Brown discolouration due to the use of chemical
+                              reagents.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="2">w 35[(60)20(65)]35 mm</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <p>Hand not identified</p>
+                     </handDesc>
+                     <scriptDesc>
+                        <p>Eleventh-century script not described.</p>
+                     </scriptDesc>
+                     <musicNotation>
+                        <p>Not present</p>
+                     </musicNotation>
+                     <decoDesc>
+                        <decoNote>Interlaced motif above the titles in brown ink.</decoNote>
+                     </decoDesc>
+                  </physDesc>
+                  <history>
+                     <summary/>
+                     <origin>
+                        <origPlace>Undetermined</origPlace>
+                        <origDate notBefore="1001" notAfter="1100">11th century</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="restoration">
+                           <p>A label on the back cover reads: "LABORATORIO DI RESTAURO DEL LIBRO
+                              presso la Biblioteca Capitolare Verona <date>1983-84</date>".</p>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+                  <listBibl>
+                     <biblStruct type="book">
+                        <monogr>
+                           <title level="m">La minuscola barocca: scritture e libri in Terra
+                              d'Otranto nei secoli XIII e XIV</title>
+                           <title type="short">La minuscola barocca</title>
+                           <idno type="ISBN">978-88-8086-797-5</idno>
+                           <idno type="callNumber">Z113.8 .A76 2008</idno>
+                           <author><forename>Daniele</forename><surname>Arnesano</surname></author>
+                           <imprint>
+                              <pubPlace>Galatina (Lecce)</pubPlace>
+                              <publisher>M. Congedo</publisher>
+                              <date>2008</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Fonti medievali e moderne / Università del Salento,
+                              Dipartimento dei beni, delle arti e della storia</title><biblScope
+                              unit="volume">12</biblScope></series>
+                     </biblStruct>
+                     <biblStruct type="book">
+                        <monogr>
+                           <title level="m">La Légende de S. Spyridon évêque de Trimithonte</title>
+                           <idno type="callNumber">BR1720 S85 V4</idno>
+                           <author><forename>Paul</forename><surname>Van den Ven</surname></author>
+                           <imprint>
+                              <pubPlace>Louvain</pubPlace>
+                              <date>1953</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Bibliothèque du Muséon</title><biblScope
+                              unit="volume">33</biblScope></series>
+                     </biblStruct>
+                     <biblStruct type="book">
+                        <monogr>
+                           <title level="m">I martirii di S. Teodoto e di S. Ariadne, con
+                              un'appendice sul testo originale del martirio di S. Eleuterio</title>
+                           <author><forename>Pio</forename><surname>Franchi de'
+                              Cavalieri</surname></author>
+                           <imprint>
+                              <pubPlace>Rome</pubPlace>
+                              <publisher>Tipografia Vaticana</publisher>
+                              <date>1901</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Studi e Testi</title><biblScope unit="volume"
+                              >6</biblScope></series>
+                     </biblStruct>
+                     <biblStruct type="book">
+                        <monogr>
+                           <title level="m">Joseph the hymnographer: kanones on saints according to
+                              the eight modes: critical edition</title>
+                           <title type="short">Joseph the hymnographer</title>
+                           <idno type="ISBN">978-3-643-90995-4</idno>
+                           <author><name>Josephus</name></author>
+                           <editor><forename>Paraskevi</forename><surname>Toma</surname></editor>
+                           <respStmt>
+                              <resp>contributor</resp>
+                              <persName><name>Westfälische Wilhelms-Universität
+                                 Münster</name></persName>
+                           </respStmt>
+                           <edition>Critical edition</edition>
+                           <imprint>
+                              <pubPlace>Wien</pubPlace>
+                              <publisher>LIT</publisher>
+                              <date>2018</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Byzantinistische Studien und
+                              Texte</title><biblScope unit="volume">Band 12</biblScope></series>
+                     </biblStruct>
+                     <biblStruct type="bookSection">
+                        <analytic>
+                           <title level="a">La tradizione manoscritta del «Nuovo Ottoeco» di
+                              Giuseppe l’Innografo: alcune osservazioni sulla (s)fortuna dei canoni
+                              apostolici</title>
+                           <title type="short">Dialoghi con Bisanzio</title>
+                           <author><forename>Luigi</forename><surname>D'Amelia</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="m">Dialoghi con Bisanzio: spazi di discussione, percorsi di
+                              ricerca: atti dell'VIII Congresso dell'Associazione italiana di studi
+                              bizantini (Ravenna, 22-25 settembre 2015)</title>
+                           <idno type="ISBN">978-88-6809-238-2</idno>
+                           <idno type="callNumber">DF521 .A87 2015</idno>
+                           <editor><forename>Giorgio</forename><surname>Vespignani</surname></editor>
+                           <editor><name>Associazione italiana di studi bizantini</name></editor>
+                           <editor><forename>Salvatore</forename><surname>Cosentino</surname></editor>
+                           <editor><forename>Margherita
+                              Elena</forename><surname>Pomero</surname></editor>
+                           <edition>Prima edizione</edition>
+                           <imprint>
+                              <pubPlace>Spoleto</pubPlace>
+                              <biblScope unit="page">325-341</biblScope>
+                              <publisher>Fondazione Centro italiano di studi sull'alto
+                                 Medioevo</publisher>
+                              <date>2019</date>
+                              <note type="accessed">2023-11-19</note>
+                              <note type="url"
+                                 >https://www.academia.edu/42461582/La_tradizione_manoscritta_del_Nuovo_Ottoeco_di_Giuseppe_l_Innografo_alcune_osservazioni_sulla_s_fortuna_dei_canoni_apostolici</note>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Quaderni della Rivista di
+                              bizantinistica</title><biblScope unit="volume">20</biblScope></series>
+                     </biblStruct>
+                     <biblStruct type="journalArticle">
+                        <analytic>
+                           <title level="a">I palinsesti greci della Biblioteca Nazionale Marciana e
+                              della Capitolare di Verona</title>
+                           <author><forename>Maria
+                              Rosa</forename><surname>Formentin</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Δίπτυχα</title>
+                           <idno type="ISSN">1105-0314</idno>
+                           <imprint>
+                              <biblScope unit="volume">2</biblScope>
+                              <biblScope unit="page">146-186</biblScope>
+                              <date>1980</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="journalArticle">
+                        <analytic>
+                           <title level="a">Les manuscrits grecs de la Bibliothèque capitulaire et
+                              de la Bibliothèque communale de Vérone</title>
+                           <author><forename>Henri</forename><surname>Omont</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Centralblatt für Bibliothekswesen</title>
+                           <idno type="ISSN">00444081</idno>
+                           <imprint>
+                              <biblScope unit="volume">8</biblScope>
+                              <biblScope unit="page">489-497</biblScope>
+                              <date>1891</date>
+                              <note type="accessed">2023-11-14</note>
+                              <note type="url"
+                                 >https://resolver.sub.uni-goettingen.de/purl?338182551_0008|log128</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book">
+                        <monogr>
+                           <title level="m">I manoscritti della Biblioteca Capitolare di
+                              Verona</title>
+                           <idno type="ISBN">978-88-85073-35-7</idno>
+                           <editor><forename>Antonio</forename><surname>Spagnolo</surname></editor>
+                           <editor><forename>Silvia</forename><surname>Marchi</surname></editor>
+                           <editor><name>Biblioteca Capitolare</name></editor>
+                           <editor><name>Biblioteca Capitolare</name></editor>
+                           <edition>1. ed</edition>
+                           <imprint>
+                              <pubPlace>Verona</pubPlace>
+                              <publisher>Mazziana</publisher>
+                              <date>1996</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book">
+                        <monogr>
+                           <title level="m">Catalogo di manoscritti greci esistenti nelle
+                              biblioteche italiane</title>
+                           <idno type="ISBN">88-240-3074-2</idno>
+                           <author><forename>Elpidio</forename><surname>Mioni</surname></author>
+                           <imprint>
+                              <pubPlace>Roma</pubPlace>
+                              <biblScope unit="volume">2</biblScope>
+                              <publisher>Ministero della Pubblica Istruzione</publisher>
+                              <date>1965</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Indici e Cataloghi</title><biblScope unit="volume"
+                              >XX</biblScope></series>
+                     </biblStruct>
+                     <biblStruct type="journalArticle">
+                        <analytic>
+                           <title level="a">Il « Copista del Digenis Akritas ». Appunti su mani
+                              anonime salentine dei secoli XIII e XIV</title>
+                           <author><forename>Daniele</forename><surname>Arnesano</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Bizantinistica. Rivista di Studi Bizantini e
+                              Slavi</title>
+                           <imprint>
+                              <biblScope unit="volume">7</biblScope>
+                              <biblScope unit="page">135-158</biblScope>
+                              <date>2005</date>
+                              <note type="accessed">2023-11-19</note>
+                              <note type="url"
+                                 >https://www.academia.edu/1285348/Il_Copista_del_Digenis_Akritas_Appunti_su_mani_anonime_salentine_dei_secoli_XIII_e_XIV_in_Bizantinistica_Rivista_di_Studi_Bizantini_e_Slavi_7_2005_pp_135_158</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="bookSection">
+                        <analytic>
+                           <title level="a">Libri inutiles in Terra d'Otranto. Modalità di piegatura
+                              di bifogli nella realizzazione del Laur. 87.21</title>
+                           <author><forename>Daniele</forename><surname>Arnesano</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="m">Libri Palinsesti Greci: Conservazione, Restauro
+                              Digitale, Studio. Atti del Convegno Internazionale</title>
+                           <idno type="ISBN">9788889940077</idno>
+                           <idno type="callNumber">Z113.8 .C66 2004, Z113.8 .C66 2008</idno>
+                           <editor><forename>Santo</forename><surname>Lucà</surname></editor>
+                           <imprint>
+                              <pubPlace>Roma</pubPlace>
+                              <biblScope unit="page">191-200</biblScope>
+                              <publisher>Comitato Nazionale per la celebrazione del Millenario della
+                                 Fondazione dell'Abbazia di S. Nilo a Grottaferata</publisher>
+                              <date>2008</date>
+                              <note type="accessed">2023-11-20</note>
+                              <note type="url"
+                                 >https://www.academia.edu/1285352/Libri_inutiles_in_Terra_dOtranto_Modalit%C3%A0_di_piegatura_dei_bifogli_nella_realizzazione_del_Laur_87_21_in_Libri_palinsesti_greci_conservazione_restauro_digitale_studio_Atti_del_Convegno_Internazionale_Villa_Mondragone_Monte_Porzio_Catone_Universit%C3%A0_degli_Studi_di_Roma_Tor_Vergata_Biblioteca_del_Monumento_Nazionale_di_Grottaferrata_21_24_aprile_2004_a_cura_di_S_Luc%C3%A0_Roma_2008_pp_191_200</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="journalArticle">
+                        <analytic>
+                           <title level="a">Il canone koinos di Giuseppe l’Innografo per il primo
+                              sabato del «Nuovo Ottoeco» (= can. I.f)</title>
+                           <author><forename>Luigi</forename><surname>D'Amelia</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Νέα ̔Ρώμη. Rivista di ricerche bizantinistiche</title>
+                           <idno type="ISSN">1970-2345</idno>
+                           <imprint>
+                              <biblScope unit="volume">17</biblScope>
+                              <biblScope unit="page">5-97</biblScope>
+                              <date>2020</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book">
+                        <monogr>
+                           <title level="m">Nuovo Ottoeco: gli otto canoni per i SS.
+                              Apostoli</title>
+                           <title type="short">Nuovo Ottoeco</title>
+                           <idno type="ISBN">978-88-32184-01-3</idno>
+                           <idno type="callNumber">BX375.O3 A56 2018</idno>
+                           <editor><forename>Luigi</forename><surname>D'Amelia</surname></editor>
+                           <editor><name>Orthodox Eastern Church</name></editor>
+                           <editor><name>Joseph</name></editor>
+                           <editor><name>Orthodox Eastern Church</name></editor>
+                           <editor><name>Orthodox Eastern Church</name></editor>
+                           <imprint>
+                              <pubPlace>Roma</pubPlace>
+                              <publisher>Università degli studi di Roma "Tor Vergata,"</publisher>
+                              <date>2018</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Quaderni di Nea Rhōmē, Series maior, Fonti e
+                              monumenti</title><biblScope unit="volume">6. 1</biblScope></series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2025-06-25" who="#editor">Initial TEI encoding - work in progress</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!-- The transcription of the text is not provided here. --></p>
+      </body>
+   </text>
+</TEI>
