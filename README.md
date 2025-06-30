@@ -10,9 +10,10 @@ Others institutions dealt we palimpsest ([Todd R. Hanneken 2024](https://palimps
 We chose to use the standard produced by the [Text Ecoding Initiative (TEI)](https://www.tei-c.org/) because it is the _de facto_ standard for describing manuscripts.
 The reference TEI files are containe in the `TEIfiles` folder of this repository.
 
-| File name           | Shelfmark |
-|---------------------|-----------|
-| CPVRm0120_0.tei.xml | CXX(110)  |
+| File name           | Shelfmark | Status             |
+|---------------------|-----------|--------------------|
+| CPVRm0120_0.tei.xml | CXX(110)  |Reference prototype.|
+| CPVRm0062_0.tei.xml | LXII (60) |To be reviewed.     |
 
 
 ### The structure
