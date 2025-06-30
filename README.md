@@ -8,13 +8,15 @@ Others institutions dealt we palimpsest ([Todd R. Hanneken 2024](https://palimps
 
 ## TEI datamodel
 We chose to use the standard produced by the [Text Ecoding Initiative (TEI)](https://www.tei-c.org/) because it is the _de facto_ standard for describing manuscripts.
+The reference TEI files are containe in the `TEIfiles` folder of this repository.
 
 ### The structure
-For each codicological unit we create a `<msPart>` element with `xml:id` containing an id.
+For each codicological unit we create a `<msPart>`, to describe if it is a _scriptio superior_ or _inferior_ we use the attribute `type`.
+.
 ```xml
-<msPart n="1" xml:id="CPVRm0134_0A">...</msPart>
-<msPart n="2" xml:id="CPVRm0134_0B">...</msPart>
-<msPart n="3" xml:id="CPVRm0134_0C">...</msPart>
+<msPart n="1" type="scriptio-superior">...</msPart>
+<msPart n="2" type="scriptio-inferior">...</msPart>
+<msPart n="3" type="scriptio-inferior">...</msPart>
 ```
 
 Inside `<msPart>` we have:
@@ -36,4 +38,3 @@ Inside `<msPart>` we have:
 </msContents>
 ```
 
-To describe if it is a scriptio superior or inferior we use type.
