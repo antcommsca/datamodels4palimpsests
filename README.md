@@ -16,7 +16,7 @@ The reference TEI files are contained in the `tei-xml` folder of this repository
 
 
 ### The structure
-For each codicological unit we create a `<msPart>`. To describe if it belongs to the  _scriptio superior_ or the _scriptio inferior_ we use the attribute `type` with the respective value (`scriprion_superior` or `scriprion_inferior`).
+For each codicological unit we create a `<msPart>`. To describe if it belongs to the  _scriptio superior_ or the _scriptio inferior_ we use the attribute `type` with the respective value (`scriptio_superior` or `scriptio_inferior`).
 
 ```xml
 <msPart n="1" type="scriptio_superior">...</msPart>
