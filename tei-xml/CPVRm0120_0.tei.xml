@@ -263,16 +263,16 @@
                      </decoDesc>
                      <additions>
                         <p>On the <locus>verso of the front endsheet</locus> a pencil note reads:
-                           «Τὸ βιβλίον τοῦτο ἐστὶ Κοντακάριον Kontacarium εἰς ὅ περιέχονται καὶ οἷ
+                           <q xml:lang="el-gr">Τὸ βιβλίον τοῦτο ἐστὶ Κοντακάριον Kontacarium εἰς ὅ περιέχονται καὶ οἷ
                            οἷκοι τῶν ἑορτῶν. ἐν <placeName xml:lang="el"
                               ref="https://www.geonames.org/3164527/verona.html">Βερὠνᾐ</placeName>
                            <date when="1843-08-02">2 agosto 1843</date>
                            <persName xml:lang="el">Παναγιώτης Γριτσάνης</persName>
                            <persName xml:lang="it">Panajotti Grizani</persName> greco da <placeName
                               xml:lang="it" ref="https://www.geonames.org/251279/zakynthos.html"
-                              >Zante</placeName>»</p>
+                              >Zante</placeName></q></p>
                         <p>On the <locus>first flyleaf recto</locus> information on the extent of
-                           the codex: "fol. 111 a. 205 l.140"</p>
+                           the codex: <q>fol. 111 a. 205 l.140</q></p>
                         <p>On the <locus>second flyleaf recto</locus> description of the codex and
                            its contents by a posterior hand in dark brown ink.</p>
                      </additions>
