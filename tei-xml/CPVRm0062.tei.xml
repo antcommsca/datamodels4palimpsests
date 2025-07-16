@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Verona, Biblioteca Capitolare, LXII</title>
+            <respStmt>
+               <resp>TEI encoded by</resp>
+               <name>Panagiotis Leontaridis</name>
+               <name>Konstantina Tsakona</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>AntCom</publisher>
+            <date>2025-07-01</date>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="CPVRm0062" type="palimpsest">
+               <msIdentifier>
+                  <country ref="https://www.geonames.org/3175395/italian-republic.html"
+                     >Italy</country>
+                  <settlement ref="https://www.geonames.org/3164527/verona.html">Verona</settlement>
+                  <repository>Biblioteca Capitolare</repository>
+                  <idno>LXII</idno>
+                  <altIdentifier type="deprecated">
+                     <idno>60</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>CPVRm0062</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msPart n="1" type="scriptio_superior">
+                  <msIdentifier>
+                     <idno>CPVRm0062_0</idno>
+                     <altIdentifier type="TM">
+                        <idno type="URI">www.trismegistos.org/text/66619</idno>
+                     </altIdentifier>
+                     <altIdentifier type="LDAB">
+                        <idno>7867</idno>
+                     </altIdentifier>
+                     <altIdentifier type="CLA">
+                        <idno>512</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="lat">Latin</textLang>
+                     <msItem>
+                        <locusGrp>
+                           <locus from="2r" to="3v">ff. 2r-3v</locus>
+                           <locus from="82r" to="107r">82r-107r &lt;83r-108r&gt;</locus>
+                        </locusGrp>
+                        <author ref="http://viaf.org/viaf/194021801">Cresconius</author>
+                        <title>Concordia Canonum</title>
+                        <msItem>
+                           <locus from="2r" to="2r">f. 2r</locus>
+                           <title>Sancti hyeronimi presbiteri in expositione evangelii super
+                              matheum</title>
+                        </msItem>
+                        <msItem>
+                           <locus from="2r" to="2v">f. 2r-v</locus>
+                           <title>Sancti ambrosii episcopi mediolanensis in expositione epistola
+                              pauli apostoli as corinthios prima</title>
+                        </msItem>
+                        <msItem>
+                           <locus from="2v" to="3v">ff. 2v-3v</locus>
+                           <title>Ex decreto sancti gregorii papae junioris</title>
+                        </msItem>
+                        <msItem>
+                           <locus from="82r" to="103r">ff. 82r-103r</locus>
+                           <rubric>De ordinationibus episcoporum</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="103v" to="105v">ff. 103v-105v</locus>
+                           <rubric>Incipit epistolae sancti augustini ad auxilium epm pro causa
+                              iniuste excommunicationis</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="105v" to="105v">f. 105v</locus>
+                           <rubric>Item epistola csp ad eundem classicianum qui excommunicatus
+                              fuerat excerptum</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="105v" to="105v">f. 105v</locus>
+                           <rubric>Item epistola csp ad eundem classicianum qui excommunicatus
+                              fuerat excerptum</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106r" to="106r">f. 106r</locus>
+                           <rubric>Item in libro de summo bono</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106r" to="106r">f. 106r</locus>
+                           <rubric>Item in libro tertio de baptismo</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106r" to="106r">f. 106r</locus>
+                           <rubric>Item csp de sermone domini in monte</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106r" to="106r">f. 106r</locus>
+                           <rubric>Item epistola csp ad cler hippns</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106r" to="106r">f. 106r</locus>
+                           <rubric>Item cusp contra secundinum manicheum</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106r" to="106v">f. 106r-v</locus>
+                           <rubric>In expositione psalmi XXXV</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106v" to="106v">f. 106v</locus>
+                           <rubric>Item in psalmo CII</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106v" to="106v">f. 106v</locus>
+                           <rubric>Ex sermone sancti iohannis crissostomi</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106v" to="106v">f. 106v</locus>
+                           <rubric>Item ex libro III sancti hieronimi in matheo euangelista</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106v" to="106v">f. 106v</locus>
+                           <rubric>Item in salomone</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106v" to="106v">f. 106v</locus>
+                           <rubric>Item ibi</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106v" to="106v">f. 106v</locus>
+                           <rubric>Item ibi</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="106v" to="107r">ff. 106v-107r</locus>
+                           <rubric>Item in deuteronomio</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="107r" to="107r">f. 107r</locus>
+                           <rubric>Item in libro ad valentinianum abbm sancti augustini
+                              decorrectione et gratia</rubric>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="mixed">
+                           <support>Parchment, partially palimpsest. After its restoration the
+                              shelfmark identifies two seperated items: (a) the bound part (ff. 1-3,
+                              82-107 &lt;83-108&gt;); (b) the damaged palimpsest bifolios of the
+                              volume that survive unbound (ff. 4-81 &lt;4-82&gt;). In the place of
+                              the removed bifolios two paper leaves were insterted that describe the
+                              structure of the codex antiquior. <formula>iii+3+ii+26</formula>
+                           </support>
+                           <extent>
+                              <measure unit="folios" quantity="58">The bound part of the codex
+                                 recentior has 29 parchment folios (or 33 with the paper additions
+                                 towards the beginning included). The whole manuscript, both bound
+                                 and unbound parts, originally had 108 ff.</measure>
+                              <dimensions>
+                                 <height unit="mm" quantity="285"/>
+                                 <width unit="mm" quantity="185"/>
+                              </dimensions>
+                           </extent>
+                           <foliation>Duplicate original foliation in blue ink and faded pencil. In
+                              the original f. 71 accurs twice and shifts the sequence.
+                              Post-rebinding new foliation at the bottom corner in pencil,
+                              independent from the unbound part.</foliation>
+                           <collation> Mostly quaternia. <catchwords>No catchwords.</catchwords>
+                              <signatures>Some signutures distinguishable in Latin
+                                 numerals.</signatures>
+                              <note/>
+                           </collation>
+                           <condition>Humidity damage, faded ink, tears at the folios of the first
+                              quire. Traces of use of chemical reagents towards the last quires
+                              (e.g. f. 24).</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="25 29"/>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="3">
+                        <p>Clear distinction among three hands in the manuscript, likely Veronese.
+                           Various additions and corrections by other readers.</p>
+                     </handDesc>
+                     <scriptDesc>
+                        <p>The majority in cursive pre-caroline minuscule. Folios 2-3 in 9th-century
+                           minuscule. Folios 99r-107r also in a similar 9th sentury minuscule.</p>
+                     </scriptDesc>
+                     <decoDesc>
+                        <decoNote type="initials">Ornamented initials with floral and zoomorphic
+                           patterns. Simpler, bold initials mark the beginning of each
+                           paragraph.</decoNote>
+                        <decoNote type="rubrics">Rubrics in distinctive uncial script, in brown and
+                           red color ink, slightly larger font.</decoNote>
+                     </decoDesc>
+                     <additions>
+                        <p>Various corrections and additions by posterior hands throughout the
+                           manuscript.</p>
+                     </additions>
+                     <bindingDesc>
+                        <binding contemporary="false">
+                           <p>Posterior binding plates in <material>paper</material> of beige
+                              colour, cornerpieces and spine lining in brown. Preserved in
+                              totality.</p>
+                           <decoNote>Cornerpieces and spine lining in darker, brown
+                              colour.</decoNote>
+                           <condition>Some wear on the spine and the four cornerpieces.</condition>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <summary/>
+                     <origin>
+                        <origPlace>
+                           <country ref="https://www.geonames.org/3175395/italian-republic.html"
+                              >Italy</country>
+                           <settlement cert="high"
+                              ref="https://www.geonames.org/3164527/verona.html">Verona</settlement>
+                        </origPlace>
+                        <origDate notBefore="0701" notAfter="0800">8th century</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="2" type="scriptio_superior">
+                  <msIdentifier>
+                     <idno>CPVRm0062_1A</idno>
+                     <altIdentifier type="TM">
+                        <idno type="URI">www.trismegistos.org/text/66619</idno>
+                     </altIdentifier>
+                     <altIdentifier type="LDAB">
+                        <idno>7867</idno>
+                     </altIdentifier>
+                     <altIdentifier type="CLA">
+                        <idno>512</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="lat">Latin</textLang>
+                     <msItem>
+                        <locus from="4r" to="81v">ff. 4r-81v &lt;4r-82v&gt;</locus>
+                        <author ref="http://viaf.org/viaf/194021801">Cresconius</author>
+                        <title>Concordia Canonum</title>
+                        <msItem>
+                           <locus from="5v" to="14v">ff. 5v-14v</locus>
+                           <rubric>Incipit capitula</rubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="15r" to="81v">ff. 15r-81v &lt;15r-82v&gt;</locus>
+                           <rubric>De ordinationibus episcoporum</rubric>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="fragment">
+                        <supportDesc material="mixed">
+                           <support>Parchment, palimpsest. After its restoration the shelfmark
+                              identifies two seperated items: (a) the bound part (ff. 1-3, 82-107
+                              &lt;83-108&gt;); (b) the damaged palimpsest bifolios of the volume
+                              that survive unbound (ff. 4-81 &lt;4-82&gt;).</support>
+                           <extent>
+                              <measure unit="folios" quantity="58">The unbound part of the volume
+                                 consists of 79 folios (39 bifolios and a folio). The whole
+                                 manuscript originally had 108 ff.</measure>
+                              <dimensions>
+                                 <height unit="mm" quantity="285"/>
+                                 <width unit="mm" quantity="185"/>
+                              </dimensions>
+                           </extent>
+                           <foliation>Duplicate original foliation in blue ink and faded pencil. In
+                              the original f. 71 accurs twice and shifts the sequence.
+                              Post-conservation new foliation at the bottom corner red ink
+                              reconstructing the the codex antiquior and independent from the
+                              unbound part.</foliation>
+                           <collation> Originally mostly quaternia. <catchwords>No
+                                 catchwords.</catchwords>
+                              <signatures>Some signutures distinguishable in Latin
+                                 numerals.</signatures>
+                              <note/>
+                           </collation>
+                           <condition>Extensive damage from the use of a variety of chemical
+                              reagents.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="25 29"/>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="3">
+                        <p>Clear distinction among three hands in the manuscript, likely Veronese.
+                           Various additions and corrections by other readers.</p>
+                     </handDesc>
+                     <scriptDesc>
+                        <p>The majority (including the entirety of the unbound part) in cursive
+                           pre-caroline minuscule. Folios 2-3 in 9th-century minuscule. Folios
+                           99r-107r also in a similar 9th sentury minuscule.</p>
+                     </scriptDesc>
+                     <decoDesc>
+                        <decoNote type="initials">Ornamented initials with floral and zoomorphic
+                           patterns. Simpler, bold initials mark the beginning of each
+                           paragraph.</decoNote>
+                        <decoNote type="rubrics">Rubrics in distinctive uncial script, in brown and
+                           red color ink, slightly larger font.</decoNote>
+                     </decoDesc>
+                     <additions>
+                        <p>Various corrections and additions by posterior hands throughout the
+                           manuscript.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <summary/>
+                     <origin>
+                        <origPlace>
+                           <country ref="https://www.geonames.org/3175395/italian-republic.html"
+                              >Italy</country>
+                           <settlement cert="high"
+                              ref="https://www.geonames.org/3164527/verona.html">Verona</settlement>
+                        </origPlace>
+                        <origDate notBefore="0701" notAfter="0800">8th century</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="3" type="scriptio_inferior">
+                  <msIdentifier>
+                     <idno>CPVRm0062_1B</idno>
+                     <altIdentifier type="TM">
+                        <idno type="URI">www.trismegistos.org/text/66620</idno>
+                     </altIdentifier>
+                     <altIdentifier type="LDAB">
+                        <idno>7868</idno>
+                     </altIdentifier>
+                     <altIdentifier type="CLA">
+                        <idno>513</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="lat">Latin</textLang>
+                     <msItem>
+                        <locus from="1" to="40">ff. 1-40 (recent foliation according to the codex
+                           antiquior)</locus>
+                        <author ref="http://viaf.org/viaf/88881722">Justistian I</author>
+                        <title>Codex Justinianus</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="fragment">
+                        <supportDesc material="parchment">
+                           <support>Parchment, later reused for Cresconius' Concordia Canonum. After
+                              its restoration the shelfmark identifies two seperated items: (a) the
+                              bound part (ff. 1-3, 82-107 &lt;83-108&gt;); (b) the damaged
+                              palimpsest bifolios of the volume that survive unbound (ff. 4-81
+                              &lt;4-82&gt;).</support>
+                           <extent>
+                              <measure unit="folios" quantity="40">40 folios: each folio of the
+                                 codex antuquior was folded in half to form a bifolio for the new
+                                 codex.</measure>
+                              <dimensions>
+                                 <height unit="mm" quantity="350"/>
+                                 <width unit="mm" quantity="282"/>
+                              </dimensions>
+                           </extent>
+                           <foliation>Duplicate original foliation in blue ink and faded pencil. In
+                              the original f. 71 accurs twice and shifts the sequence.
+                              Post-conservation new foliation at the bottom corner red ink
+                              reconstructing the the codex antiquior and independent from the bound
+                              part.</foliation>
+                           <collation>Gatherings of eight folios.</collation>
+                           <condition>Extensive damage from the use of a variety of chemical
+                              reagents.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="2" writtenLines="50 53"/>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <p>Byzantine-Greek hand.</p>
+                     </handDesc>
+                     <scriptDesc>
+                        <p>6th-century uncial script.</p>
+                     </scriptDesc>
+                     <decoDesc>
+                        <decoNote type="rubrics">Rubrics in red Rustic Capital.</decoNote>
+                     </decoDesc>
+                     <additions>
+                        <p>Greek scholia in sloping uncial.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <summary/>
+                     <origin>
+                        <origPlace> Probably at a Greek centre in Byzantium.</origPlace>
+                        <origDate notBefore="0501" notAfter="0600">6th century</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="restoration" notBefore="1924" notAfter="1928">
+                           <p>Restoration event where the palimpsest quires were seperated from the
+                              main volume at the Vatican Library. Interventions according to the
+                              method of Franz Ehrle, Prefect of the BAV, to stabilise the parchment
+                              using gelatine (Gysembergh &amp; Zingg, 2023).</p>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+                  <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                     <biblStruct type="bookSection" xml:id="Bassetti2018a">
+                        <analytic>
+                           <title level="a">Da Pacifico a Raterio: scriptorium, biblioteca e scuola
+                              a Verona tra IX e X secolo</title>
+                           <title type="short">"Vera amicitia praecipuum munus"</title>
+                           <author><forename>Massimiliano</forename><surname>Bassetti</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="m">"Vera amicitia praecipuum munus": contributi di cultura
+                              medievale e umanistica per Enrico Menestò</title>
+                           <idno type="ISBN">9788884509093</idno>
+                           <idno type="callNumber">CB351 .V42 2018</idno>
+                           <editor><forename>Enrico</forename><surname>Menestò</surname></editor>
+                           <imprint>
+                              <pubPlace>Firenze</pubPlace>
+                              <publisher>Edizioni del Galluzzo per la Fondazione
+                                 Franceschini</publisher>
+                              <date>2018</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Bassetti2018b">
+                        <analytic>
+                           <title level="a">All’incrocio di culture tra Antichità e Medioevo. Storie
+                              di palinsesti a Verona, tra Ravenna e Bobbio</title>
+                           <author><forename>M.</forename><surname>Bassetti</surname></author>
+                        </analytic>
+                        <monogr>
+                           <imprint>
+                              <date>2018</date>
+                              <note type="accessed">2025-07-16T17:04:25Z</note>
+                              <note type="url">https://iris.univr.it/handle/11562/991133</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Bassetti2018c">
+                        <monogr>
+                           <title level="m">Nell'anno del Signore 517: Verona al tempo di Ursicino:
+                              crocevia di uomini, culture, scritture: catalogo della mostra, Verona,
+                              Biblioteca capitolare, 16 febbraio - 16 maggio 2018</title>
+                           <title type="short">Nell'anno del Signore 517</title>
+                           <idno type="ISBN">9788868091699</idno>
+                           <idno type="callNumber">Z6621.B5432 N45 2018</idno>
+                           <editor><forename>Massimiliano</forename><surname>Bassetti</surname></editor>
+                           <editor><name>Biblioteca capitolare di Verona</name></editor>
+                           <imprint>
+                              <pubPlace>Spoleto</pubPlace>
+                              <publisher>Fondazione Centro italiano di studi sull'alto
+                                 Medioevo</publisher>
+                              <date>2018</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Uomini e mondi medievali ; Mostre</title><biblScope
+                              unit="volume">53. 2</biblScope></series>
+                     </biblStruct>
+                     <biblStruct type="bookSection" xml:id="Gippert2024">
+                        <analytic>
+                           <title level="a">Written Sources on the Use of Reagents in the
+                              Palimpsests Veronenses XV, XL, and LXII: Towards an Archaeology of
+                              Destruction</title>
+                           <title type="short">Written Sources on the Use of Reagents in the
+                              Palimpsests Veronenses XV, XL, and LXII</title>
+                           <author><forename>Emanuel</forename><surname>Zingg</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="m">Palimpsests and Related Phenomena across Languages and
+                              Cultures</title>
+                           <idno type="ISBN">9783111552170</idno>
+                           <editor><forename>Jost</forename><surname>Gippert</surname></editor>
+                           <editor><forename>José</forename><surname>Maksimczuk</surname></editor>
+                           <editor><forename>Hasmik</forename><surname>Sargsyan</surname></editor>
+                           <imprint>
+                              <biblScope unit="page">21-56</biblScope>
+                              <publisher>De Gruyter</publisher>
+                              <date>2024</date>
+                              <note type="accessed">2025-07-16T16:50:36Z</note>
+                              <note type="url"
+                                 >https://www.degruyter.com/document/doi/10.1515/9783111552170-002/html</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Lowe1959">
+                        <monogr>
+                           <title level="m">Codices Latini Antiquiores</title>
+                           <author><forename>E.A.</forename><surname>Lowe</surname></author>
+                           <imprint>
+                              <biblScope unit="volume">IV Italy: Perugia - Verona</biblScope>
+                              <publisher>Clarendon Press</publisher>
+                              <date>1959</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Spagnolo1996">
+                        <monogr>
+                           <title level="m">I manoscritti della Biblioteca Capitolare di
+                              Verona</title>
+                           <idno type="ISBN">9788885073357</idno>
+                           <editor><forename>Antonio</forename><surname>Spagnolo</surname></editor>
+                           <editor><forename>Silvia</forename><surname>Marchi</surname></editor>
+                           <editor><name>Biblioteca Capitolare</name></editor>
+                           <editor><name>Biblioteca Capitolare</name></editor>
+                           <edition>1. ed</edition>
+                           <imprint>
+                              <pubPlace>Verona</pubPlace>
+                              <publisher>Mazziana</publisher>
+                              <date>1996</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="bookSection" xml:id="Lowe1961">
+                        <analytic>
+                           <title level="a">Greek symptoms in a sixth-century manuscript of St.
+                              Augustine and in a group of Latin legal manuscripts</title>
+                           <author><forename>Elias Avery</forename><surname>Lowe</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="m">Didascaliae: studies in honor of Anselm M.
+                              Albareda</title>
+                           <imprint>
+                              <pubPlace>New York</pubPlace>
+                              <biblScope unit="page">277-289</biblScope>
+                              <date>1961</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Engelbert1968">
+                        <analytic>
+                           <title level="a">Zur Frühgeschichte des Bobbieser Skriptoriums</title>
+                           <idno type="DOI">10.1484/J.RB.4.00589</idno>
+                           <author><forename>P.</forename><surname>Engelbert</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Revue Bénédictine</title>
+                           <idno type="ISSN">0035-0893, 2295-9009</idno>
+                           <imprint>
+                              <biblScope unit="volume">78</biblScope>
+                              <biblScope unit="issue">3-4</biblScope>
+                              <biblScope unit="page">220-260</biblScope>
+                              <date>1968</date>
+                              <note type="accessed">2025-07-14T14:50:11Z</note>
+                              <note type="url"
+                                 >https://www.brepolsonline.net/doi/10.1484/J.RB.4.00589</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Santi2019">
+                        <monogr>
+                           <title level="m">Identità di testo: frammenti, collezioni di testi,
+                              glosse e rifacimenti</title>
+                           <title type="short">Identità di testo</title>
+                           <idno type="ISBN">9788884509550</idno>
+                           <idno type="callNumber">P47 .S46 2018</idno>
+                           <editor><forename>Francesco</forename><surname>Santi</surname></editor>
+                           <editor><forename>Antonio</forename><surname>Stramaglia</surname></editor>
+                           <imprint>
+                              <pubPlace>Firenze</pubPlace>
+                              <publisher>SISMEL · Edizioni del Galluzzo</publisher>
+                              <date>2019</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">MediEVI</title><biblScope unit="volume"
+                              >23</biblScope></series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2025-07-05" who="#editor">Initial TEI encoding - work in progress</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!-- The transcription of the text is not provided here. --></p>
+      </body>
+   </text>
+</TEI>

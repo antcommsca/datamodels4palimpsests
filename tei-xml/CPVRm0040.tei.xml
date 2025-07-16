@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Verona, Biblioteca Capitolare, XL</title>
+            <respStmt>
+               <resp>TEI encoded by</resp>
+               <name>Panagiotis Leontaridis</name>
+               <name>Konstantina Tsakona</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>AntCom</publisher>
+            <date>2025-07-01</date>
+            <availability>
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="CPVRm0040" type="palimpsest">
+               <msIdentifier>
+                  <country ref="https://www.geonames.org/3175395/italian-republic.html"
+                     >Italy</country>
+                  <settlement ref="https://www.geonames.org/3164527/verona.html">Verona</settlement>
+                  <repository>Biblioteca Capitolare</repository>
+                  <idno>XL</idno>
+                  <altIdentifier type="deprecated">
+                     <idno>38</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>CPVRm0040</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msPart n="1" type="scriptio_superior">
+                  <msIdentifier>
+                     <idno>CPVRm0040_0</idno>
+                     <altIdentifier type="TM">
+                        <idno type="URI">www.trismegistos.org/text/66605</idno>
+                     </altIdentifier>
+                     <altIdentifier type="LDAB">
+                        <idno>7853</idno>
+                     </altIdentifier>
+                     <altIdentifier type="CLA">
+                        <idno>497</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="lat">Latin</textLang>
+                     <msItem>
+                        <locus from="1r" to="201v">ff. 1r-201v</locus>
+                        <author ref="http://viaf.org/viaf/100184667" xml:lang="la">Gregorius
+                           Magnus</author>
+                        <title xml:lang="la">Moralia</title>
+                        <note/>
+                        <msItem>
+                           <locus from="1r" to="24r">ff. 1r-24r</locus>
+                           <finalRubric>EXPLICIT LIBER XXVIII</finalRubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="24r" to="65r">ff. 24r-65r</locus>
+                           <rubric>INCIPIT LIBER XXVIIII</rubric>
+                           <incipit>DOMINUS DEUS NOSTER IHS XPS</incipit>
+                           <finalRubric>EXPLICIT LIBER XXVIIII</finalRubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="65r" to="113v">ff. 65r-113v</locus>
+                           <rubric>INCIPIT XXX</rubric>
+                           <incipit>BEATUS IOB TALIA UTRUMNE</incipit>
+                           <finalRubric>EXPLICIT LIBER TRECESIMUS</finalRubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="113v" to="171v">ff. 113v-171V</locus>
+                           <rubric>INCIPIT LIBER XXXI</rubric>
+                           <incipit>IN PARADISO SANO HOMINI</incipit>
+                           <finalRubric>EXPLICIT LIBER XXXI</finalRubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="171v" to="201v">ff. 171v-201v</locus>
+                           <rubric>INCIPIT XXXII</rubric>
+                           <incipit>SANCTI VIRI QUO APUD DEUM ALTIUS</incipit>
+                           <note>Explicit in the unbound folios of the volume.</note>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="parch">
+                           <support>Thin, fine quality parchment. After its restoration the
+                              shelfmark identifies two seperated items: (a) the non-palimpsest
+                              folios (ff. 1-201) that remain bound in codex form; (b) the palimpsest
+                              bifolios of the volume that survive unbound in paper folders grouped
+                              by signature. The current entry describes the bound codex.</support>
+                           <extent>
+                              <measure unit="folios" quantity="201">The bound part of the codex
+                                 recentior has 201 ff. The entire manuscript, both bound and unbound
+                                 parts, had 340 ff.</measure>
+                              <dimensions>
+                                 <height unit="mm" quantity="215"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                           </extent>
+                           <foliation>Duplicate foliation in red ink and pencil.</foliation>
+                           <collation>
+                              <formula>ii<hi rend="sup">8</hi>-xiv<hi rend="sup">8</hi>, xv<hi
+                                    rend="sup">9</hi>, xvi<hi rend="sup">8</hi>-xxvi<hi rend="sup"
+                                    >8</hi></formula>
+                              <catchwords>No catchwords.</catchwords>
+                              <signatures>Signutures in Latin numerals at the last verso of each
+                                 quire.</signatures>
+                              <note/>
+                           </collation>
+                           <condition>Humidity damage, faded ink, tears and missing corners of the
+                              folios of the first quire.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="19"/>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <p>Single 8th-9th century hand. See script.</p>
+                     </handDesc>
+                     <scriptDesc>
+                        <p>Eighth-century 'Luxeuil' minuscule; expert flowing cursive minuscule;
+                           letters lean slightly to the left (C.L.A. 497).</p>
+                     </scriptDesc>
+                     <decoDesc>
+                        <decoNote type="initials">Large Merovingian initials in green, red and
+                           yellow with fish and bird motifs (C.L.A. 497).</decoNote>
+                        <decoNote type="rubrics">Rubrics in interchanging red and green ornamented
+                           uncial characters.</decoNote>
+                        <decoNote type="incipit">Two- or three-line incipit for each book. The first
+                           line in red and green ornamented uncial script, while the rest in
+                           semi-uncial red characters.</decoNote>
+                     </decoDesc>
+                     <additions>
+                        <p>Marginal note by a Veronese hand on <locus>f. 9v</locus>. Additions and
+                           corrections possibly by Pacificus of Verona on <locus>ff. 137v, 160,
+                              187v, etc.</locus> (C.L.A. 497).</p>
+                     </additions>
+                     <bindingDesc>
+                        <binding contemporary="false">
+                           <p>The codex was rebound in the 20th century between two
+                                 <material>wooden</material> plates with a dark brown
+                                 <material>leather</material> joint. It features occidental binding
+                              with three raised nerve bands.</p>
+                           <decoNote>Shelfmark in latin numerals stamped in gold and centered
+                              towards the bottom of the spine.</decoNote>
+                           <condition>The original binding does not survive. The codex was rebound
+                              in the 20th century.</condition>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <summary/>
+                     <origin>
+                        <origPlace>
+                           <country ref="https://www.geonames.org/3017382/republic-of-france.html"
+                              >France</country>
+                           <settlement ref="https://www.geonames.org/2996995/luxeuil-les-bains.html"
+                              >Luxeuil</settlement>
+                        </origPlace>
+                        <origDate notBefore="0701" notAfter="0800">8th century</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="2" type="scriptio_superior">
+                  <msIdentifier>
+                     <idno>CPVRm0040_1A</idno>
+                     <altIdentifier type="TM">
+                        <idno type="URI">www.trismegistos.org/text/66605</idno>
+                     </altIdentifier>
+                     <altIdentifier type="LDAB">
+                        <idno>7853</idno>
+                     </altIdentifier>
+                     <altIdentifier type="CLA">
+                        <idno>497</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="lat">Latin</textLang>
+                     <msItem>
+                        <locus from="202r" to="344v">ff. 202r-344v</locus>
+                        <author ref="http://viaf.org/viaf/100184667" xml:lang="la">Gregorius
+                           Magnus</author>
+                        <title xml:lang="la">Moralia</title>
+                        <msItem>
+                           <locus from="202r" to="211r">ff. 202r-211r</locus>
+                           <finalRubric>EXPLICIT LIBER XXXII</finalRubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="211r" to="266v">ff. 211r-266v</locus>
+                           <rubric>INCIPIT LIBER TRECESIMUS TERTIUS</rubric>
+                           <incipit>ANTIQUO HOSTI QUI SUB</incipit>
+                           <finalRubric>EXPLICIT LIBER XXXIII</finalRubric>
+                        </msItem>
+                        <msItem>
+                           <locus from="266v" to="305r">ff. 266v-305r</locus>
+                           <rubric>INCIPIT XXXIIII</rubric>
+                           <incipit>QUIA EX HOC</incipit>
+                        </msItem>
+                        <msItem>
+                           <locus from="305r" to="344V">ff. 305r-344V</locus>
+                           <rubric>INCIPIT LIBER XXXV</rubric>
+                           <incipit>QUIA ISTE ULTIMUS HUIUS</incipit>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="unbound">
+                        <supportDesc material="parch">
+                           <support>Partially palimpsest. Parchment either of thin, fine quality or
+                              reused from three codices antiquiores. After its restoration the
+                              shelfmark identifies two seperated items: (a) the non-palimpsest
+                              folios (ff. 1-201) that remain bound in codex form; (b) the palimpsest
+                              bifolios of the volume that survive unbound in paper folders grouped
+                              by signature. The current entry describes the unbound part of the
+                              codex.</support>
+                           <extent>
+                              <measure unit="folios" quantity="139">The bound part of the codex
+                                 recentior has 201 ff. The entire manuscript, both bound and unbound
+                                 parts, had 340 ff.</measure>
+                              <dimensions>
+                                 <height unit="mm" quantity="215"/>
+                                 <width unit="mm" quantity="273"/>
+                              </dimensions>
+                           </extent>
+                           <foliation>Duplicate foliation in red ink and pencil. Numbers 327-330
+                              skipped.</foliation>
+                           <collation>
+                              <formula>xxvii<hi rend="sup">8</hi>-xlii<hi rend="sup">8</hi>,
+                                    xliii<hi rend="sup">10</hi></formula>
+                              <catchwords>No catchwords.</catchwords>
+                              <signatures>Signutures in Latin numerals at the last verso of each
+                                 quire.</signatures>
+                              <note/>
+                           </collation>
+                           <condition>Humidity damage, faded ink, tears and missing corners of the
+                              folios of the first quire.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="19"/>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <p>Single 8th-9th century hand. See script.</p>
+                     </handDesc>
+                     <scriptDesc>
+                        <p>Eighth-century 'Luxeuil' minuscule; expert flowing cursive minuscule;
+                           letters lean slightly to the left (C.L.A. 497).</p>
+                     </scriptDesc>
+                     <decoDesc>
+                        <decoNote type="initials">Large Merovingian initials in green, red and
+                           yellow with fish and bird motifs (C.L.A. 497).</decoNote>
+                        <decoNote type="rubrics">Rubrics in interchanging red and green ornamented
+                           uncial characters.</decoNote>
+                        <decoNote type="incipit">Two- or three-line incipit for each book. The first
+                           line in red and green ornamented uncial script, while the rest in
+                           semi-uncial red characters.</decoNote>
+                     </decoDesc>
+                     <bindingDesc>
+                        <binding>
+                           <p>Unbound. After a restoration event the shelfmark identifies two now
+                              seperated items: (a) the non-palimpsest folios (ff. 1-201) that remain
+                              bound in codex form; (b) the (partially) palimpsest bifolios of the
+                              volume that survive unbound in paper folders grouped by signature.</p>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <summary/>
+                     <origin>
+                        <origPlace>
+                           <country ref="https://www.geonames.org/3017382/republic-of-france.html"
+                              >France</country>
+                           <settlement ref="https://www.geonames.org/2996995/luxeuil-les-bains.html"
+                              >Luxeuil</settlement>
+                        </origPlace>
+                        <origDate notBefore="0701" notAfter="0800">8th century</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="3" type="scriptio_inferior">
+                  <msIdentifier>
+                     <idno>CPVRm0040_1B</idno>
+                     <altIdentifier type="TM">
+                        <idno type="URI">www.trismegistos.org/text/65876</idno>
+                     </altIdentifier>
+                     <altIdentifier type="LDAB">
+                        <idno>7141</idno>
+                     </altIdentifier>
+                     <altIdentifier type="CLA">
+                        <idno>498</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="lat">Latin</textLang>
+                     <msItem>
+                        <locusGrp>
+                           <locus from="205" to="206">ff. 205-206</locus>
+                           <locus from="211" to="216">211-216</locus>
+                           <locus from="219" to="224">219-224</locus>
+                           <locus from="227" to="231">227-231</locus>
+                           <locus from="234" to="241">234-241</locus>
+                           <locus from="243" to="266">243-266</locus>
+                        </locusGrp>
+                        <author ref="http://viaf.org/viaf/8194433" xml:lang="la">Vergilius</author>
+                        <msItem>
+                           <locusGrp>
+                              <locus from="224r" to="224v">ff. 224r-224v</locus>
+                              <locus from="219r" to="219v">219r-219v</locus>
+                              <locus from="263v" to="263r">263v-263r</locus>
+                              <locus from="262v" to="262r">262v-262r</locus>
+                           </locusGrp>
+                           <author ref="http://viaf.org/viaf/8194433" xml:lang="la"
+                              >Vergilius</author>
+                           <title xml:lang="la">Bucolica</title>
+                        </msItem>
+                        <msItem>
+                           <locusGrp>
+                              <locus from="236r" to="236v">ff. 236r-236v</locus>
+                              <locus from="239r" to="239v">239r-239v</locus>
+                              <locus from="221r" to="222v">221r-222v</locus>
+                              <locus from="264v" to="264r">264v-264r</locus>
+                              <locus from="261v" to="261r">261v-261r</locus>
+                              <locus from="251v" to="251r">251v-251r</locus>
+                              <locus from="258v" to="258r">258v-258r</locus>
+                           </locusGrp>
+                           <author ref="http://viaf.org/viaf/8194433" xml:lang="la"
+                              >Vergilius</author>
+                           <title xml:lang="la">Georgica</title>
+                        </msItem>
+                        <msItem>
+                           <locusGrp>
+                              <locus from="256v" to="256r">ff. 256v-256r</locus>
+                              <locus from="253v" to="253r">253v-253r</locus>
+                              <locus from="205r" to="206v">205r-206v</locus>
+                              <locus from="231r" to="231v">231r-231v</locus>
+                              <locus from="228r" to="228v">228r-228v</locus>
+                              <locus from="220v" to="220v">220v</locus>
+                              <locus from="248v" to="248r">248v-248r</locus>
+                              <locus from="245v" to="245r">245v-245r</locus>
+                              <locus from="223v" to="223r">223v-223r</locus>
+                              <locus from="247v" to="247r">247v-247r</locus>
+                              <locus from="211v" to="211r">211v-211r</locus>
+                              <locus from="216v" to="216r">216v-216r</locus>
+                              <locus from="227r" to="227v">227r-227v</locus>
+                              <locus from="243r" to="243v">243r-243v</locus>
+                              <locus from="266r" to="266r">266r</locus>
+                              <locus from="259v" to="259v">259v</locus>
+                              <locus from="250r" to="250v">250r-250v</locus>
+                              <locus from="252v" to="252r">252v-252r</locus>
+                              <locus from="212v" to="212r">212v-212r</locus>
+                              <locus from="215v" to="215r">215v-215r</locus>
+                              <locus from="257v" to="257r">257v-257r</locus>
+                              <locus from="244r" to="244v">244r-244v</locus>
+                              <locus from="249r" to="249v">249r-249v</locus>
+                              <locus from="238r" to="238v">238r-238v</locus>
+                              <locus from="237r" to="237v">237r-237v</locus>
+                              <locus from="235r" to="235v">235r-235v</locus>
+                              <locus from="240r" to="240v">240r-240v</locus>
+                              <locus from="260v" to="260r">260v-260r</locus>
+                              <locus from="241r" to="241v">241r-241v</locus>
+                              <locus from="234r" to="234v">234r-234v</locus>
+                              <locus from="265v" to="265v">265v</locus>
+                              <locus from="230v" to="230r">230v-230r</locus>
+                              <locus from="229v" to="229v">229v</locus>
+                              <locus from="213v" to="213r">213v-213r</locus>
+                              <locus from="255v" to="255r">255v-255r</locus>
+                              <locus from="254r" to="254r">254r</locus>
+                              <locus from="214v" to="214r">214v-214r</locus>
+                           </locusGrp>
+                           <author ref="http://viaf.org/viaf/8194433" xml:lang="la"
+                              >Vergilius</author>
+                           <title xml:lang="la">Aeneis</title>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="unbound">
+                        <supportDesc material="parch">
+                           <support>Parchment later reused for the Moralia of Gregorius
+                              Magnus.</support>
+                           <extent>
+                              <measure unit="folios" quantity="51">51 folios</measure>
+                              <dimensions>
+                                 <height unit="mm" quantity="215"/>
+                                 <width unit="mm" quantity="273"/>
+                              </dimensions>
+                           </extent>
+                           <foliation/>
+                           <collation> Baschera (1999, pp. 40-42) describes the Virgilian codex as
+                              probably originally having 52 gatherings. <formula/>
+                              <catchwords/>
+                              <signatures>No signatures discernible.</signatures>
+                              <note/>
+                           </collation>
+                           <condition>Extensive damage in the majority of bifolios from the use of
+                              various types of chemical reagents.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="13">
+                              <p>13 long lines with wide margins for scholia. Ruling on the hair
+                                 side (C.L.A. 498).</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="3">
+                        <p>Single, fifth-century hand for the main textblock. Same-period scholia by
+                           two hands in mixed uncial and eraly half-uncial (C.L.A. 498).</p>
+                     </handDesc>
+                     <scriptDesc>
+                        <p>Fifth-century rustic capitals in the main textblock.</p>
+                     </scriptDesc>
+                     <decoDesc>
+                        <decoNote>Indescernible</decoNote>
+                     </decoDesc>
+                     <additions>
+                        <p>In the intentionally wide margins fifth-century commentary by two hands
+                           in mixed uncial and early half-uncial (C.L.A. 498).</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <summary/>
+                     <origin>
+                        <origPlace cert="low">Gaul</origPlace>
+                        <origDate cert="low" notBefore="0401" notAfter="0500">5th century</origDate>
+                     </origin>
+                     <provenance/>
+                  </history>
+               </msPart>
+               <msPart n="4" type="scriptio_inferior">
+                  <msIdentifier>
+                     <idno>CPVRm0040_1C</idno>
+                     <altIdentifier type="TM">
+                        <idno type="URI">www.trismegistos.org/text/66606</idno>
+                     </altIdentifier>
+                     <altIdentifier type="LDAB">
+                        <idno>7854</idno>
+                     </altIdentifier>
+                     <altIdentifier type="CLA">
+                        <idno>499</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="lat">Latin</textLang>
+                     <msItem>
+                        <locusGrp>
+                           <locus from="267" to="314">ff. 267-314</locus>
+                           <locus from="316" to="317">316-317</locus>
+                           <locus from="320" to="321">320-321</locus>
+                           <locus from="324" to="324">324</locus>
+                           <locus from="332" to="333">332-333</locus>
+                           <locus from="337" to="337">337</locus>
+                           <locus from="339" to="340">339-340</locus>
+                           <locus from="342" to="342">342</locus>
+                        </locusGrp>
+                        <author ref="http://viaf.org/en/viaf/99942145" xml:lang="la">Titus
+                           Livius</author>
+                        <title>Ab Urbe Condita (III.6-VI.7)</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="fragment">
+                        <supportDesc material="parch">
+                           <support>Parchment later reused for the Moralia of Gregorius
+                              Magnus.</support>
+                           <extent>
+                              <measure unit="folios" quantity="60">60 folios. Original codex of 432
+                                 folios.</measure>
+                              <dimensions>
+                                 <height unit="mm" quantity="240"/>
+                                 <width unit="mm" quantity="270"/>
+                              </dimensions>
+                           </extent>
+                           <foliation/>
+                           <collation> The 60 surviving folios come from 15 different gatherings,
+                              but the original codex was composed of 56. <formula/>
+                              <catchwords/>
+                              <signatures>Signature survive in 4 folios in the format "q." followed
+                                 by the respective roman numeral.</signatures>
+                              <note/>
+                           </collation>
+                           <condition>Damage in the majority of bifolios from the use of various
+                              types of chemical reagents. Some applications successful.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="2" writtenLines="30"/>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <p>Regular uncial of the oldest type. Scholia in tiny Greek uncial in a
+                           current expert hand (C.L.A. 499).</p>
+                     </handDesc>
+                     <scriptDesc>
+                        <p>Regular uncial of the oldest type (C.L.A. 499).</p>
+                     </scriptDesc>
+                     <decoDesc>
+                        <decoNote type="initials">Large initial at the beginning of each column in
+                           similar ink to the text.</decoNote>
+                        <decoNote type="rubrics">Initial and final rubrics in large uncial accupying
+                           an entire column.</decoNote>
+                     </decoDesc>
+                     <additions>
+                        <p>Greek scholia in a tuny uncial of the oldest type.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <summary/>
+                     <origin>
+                        <origPlace>Italy</origPlace>
+                        <origDate notBefore="0401" notAfter="0500">5th century</origDate>
+                     </origin>
+                     <provenance> Rewritten probably at <placeName>Luxeuil</placeName> at the
+                        beginning of the <date notBefore="0701" notAfter="0800">8th century</date>.
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart n="5" type="scriptio_inferior">
+                  <msIdentifier>
+                     <idno>CPVRm0040_1D</idno>
+                     <altIdentifier type="TM">
+                        <idno type="URI">www.trismegistos.org/text/66607</idno>
+                     </altIdentifier>
+                     <altIdentifier type="LDAB">
+                        <idno>7855</idno>
+                     </altIdentifier>
+                     <altIdentifier type="CLA">
+                        <idno>500</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="lat">Latin</textLang>
+                     <msItem>
+                        <locusGrp>
+                           <locus from="315" to="315">ff. 315</locus>
+                           <locus from="318" to="319">318-319</locus>
+                           <locus from="322" to="323">322-323</locus>
+                           <locus from="334" to="335">334-335</locus>
+                           <locus from="344" to="344">344</locus>
+                        </locusGrp>
+                        <title type="desc">Introduction to Plato's work and summary to the platonic
+                           corpus.</title>
+                        <msItem>
+                           <locusGrp>
+                              <locus from="315r" to="315v">ff. 315</locus>
+                              <locus from="322r" to="322v">322</locus>
+                           </locusGrp>
+                           <title type="desc">Introduction; summaries to Charmides (Χαρμίδης),
+                              Theages (Θεάγης), Ion (Ἴων), On Justice (Περὶ Δικαίου), On Virtue
+                              (Περὶ Ἀρετῆς), Minos (Μίνως), and Erastai (Ἐρασταί) (Gysembergh &amp;
+                              Zingg, 2023).</title>
+                        </msItem>
+                        <msItem>
+                           <locus from="318r" to="319v">ff. 318-319</locus>
+                           <title type="desc">Introduction; summaries to Cratylus (Κρατύλος) and the
+                              beginning of Philebus (Φίληβος) (Gysembergh &amp; Zingg,
+                              2023).</title>
+                        </msItem>
+                        <msItem>
+                           <locusGrp>
+                              <locus from="323r" to="323v">ff. 323</locus>
+                              <locus from="334r" to="334v">334</locus>
+                           </locusGrp>
+                           <title type="desc">Summary of books one, two, five, nine, ten of the
+                              Republic (Πολιτεία) (Gysembergh &amp; Zingg, 2023).</title>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="fragment">
+                        <supportDesc material="parch">
+                           <support>Parchment later reused for the Moralia of Gregorius
+                              Magnus.</support>
+                           <extent>
+                              <measure unit="folios" quantity="8">8 folios</measure>
+                              <dimensions>
+                                 <height unit="mm" quantity="250"/>
+                                 <width unit="mm" quantity="260"/>
+                              </dimensions>
+                           </extent>
+                           <foliation/>
+                           <collation>
+                              <formula/>
+                              <catchwords/>
+                              <signatures/>
+                              <note/>
+                           </collation>
+                           <condition>Extensive damage in the majority of bifolios from the use of
+                              various types of chemical reagents.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="27"/>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <p>SIngle hand, non-datable yet.</p>
+                     </handDesc>
+                     <scriptDesc>
+                        <p>Bold, crude and inexpert uncial (C.L.A. 500).</p>
+                     </scriptDesc>
+                     <decoDesc>
+                        <decoNote>Undetermined.</decoNote>
+                     </decoDesc>
+                  </physDesc>
+                  <history>
+                     <summary/>
+                     <origin>
+                        <origPlace cert="low">France</origPlace>
+                        <origDate cert="low" notBefore="0401" notAfter="0700">5th-7th
+                           century</origDate>
+                     </origin>
+                     <provenance> Rewritten probably at <placeName>Luxeuil</placeName> at the
+                        beginning of the <date notBefore="0701" notAfter="0800">8th century</date>.
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart n="6" type="scriptio_inferior">
+                  <msIdentifier>
+                     <idno>CPVRm0040_1E</idno>
+                     <altIdentifier type="TM">
+                        <idno type="URI">www.trismegistos.org/text/66608</idno>
+                     </altIdentifier>
+                     <altIdentifier type="LDAB">
+                        <idno>7856</idno>
+                     </altIdentifier>
+                     <altIdentifier type="CLA">
+                        <idno>501</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <textLang mainLang="lat">Latin</textLang>
+                     <msItem>
+                        <locusGrp>
+                           <locus from="326" to="326">ff. 326</locus>
+                           <locus from="331" to="331">331</locus>
+                           <locus from="336" to="336">336</locus>
+                           <locus from="338" to="338">338</locus>
+                           <locus from="341" to="341">341</locus>
+                           <locus from="343" to="343">343</locus>
+                        </locusGrp>
+                        <author ref="http://viaf.org/viaf/266578192">Euclid</author>
+                        <title type="desc">Elements (anonymous translation of books XI-XIII)</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="fragment">
+                        <supportDesc material="parch">
+                           <support>Parchment later reused for the Moralia of Gregorius
+                              Magnus.</support>
+                           <extent>
+                              <measure unit="folios" quantity="6">6 folios</measure>
+                              <dimensions>
+                                 <height unit="mm" quantity="245"/>
+                                 <width unit="mm" quantity="260"/>
+                              </dimensions>
+                           </extent>
+                           <foliation/>
+                           <collation>
+                              <formula/>
+                              <catchwords/>
+                              <signatures/>
+                              <note/>
+                           </collation>
+                           <condition>Damage in the majority of bifolios from the use of various
+                              types of chemical reagents.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="2" writtenLines="23"/>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <p>Single non-expert scribe.</p>
+                     </handDesc>
+                     <scriptDesc>
+                        <p>Rustic capital script (C.L.A. 501).</p>
+                     </scriptDesc>
+                     <decoDesc>
+                        <decoNote type="rubrics">Running title in rustic capital.</decoNote>
+                     </decoDesc>
+                  </physDesc>
+                  <history>
+                     <summary/>
+                     <origin>
+                        <origPlace cert="low">France</origPlace>
+                        <origDate cert="low" notBefore="0450" notAfter="0500">5th century</origDate>
+                     </origin>
+                     <provenance> Rewritten probably at <placeName>Luxeuil</placeName> at the
+                        beginning of the <date notBefore="0701" notAfter="0800">8th century</date>.
+                     </provenance>
+                  </history>
+               </msPart>
+               <history>
+                  <provenance>
+                     <placeName>
+                        <country>Italy</country>
+                        <settlement>Verona</settlement>
+                     </placeName>
+                     <date notBefore="0801">by the 9th century</date>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="restoration" notBefore="1924" notAfter="1928">
+                           <p>Restoration event where the palimpsest quires were seperated from the
+                              main volume at the Vatican Library. Interventions according to the
+                              method of Franz Ehrle, Prefect of the BAV, to stabilise the parchment
+                              using gelatine (Gysembergh &amp; Zingg, 2023).</p>
+                        </custEvent>
+                        <custEvent type="restoration" when="1970">
+                           <p>A label on the back cover reads: "LABORATORIO DI RESTAURO DEL LIBRO
+                              presso la Biblioteca Capitolare Verona <date>1970</date>".</p>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+                  <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                     <biblStruct type="bookSection" xml:id="Bassetti2018a">
+                        <analytic>
+                           <title level="a">Da Pacifico a Raterio: scriptorium, biblioteca e scuola
+                              a Verona tra IX e X secolo</title>
+                           <title type="short">"Vera amicitia praecipuum munus"</title>
+                           <author><forename>Massimiliano</forename><surname>Bassetti</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="m">"Vera amicitia praecipuum munus": contributi di cultura
+                              medievale e umanistica per Enrico Menestò</title>
+                           <idno type="ISBN">9788884509093</idno>
+                           <idno type="callNumber">CB351 .V42 2018</idno>
+                           <editor><forename>Enrico</forename><surname>Menestò</surname></editor>
+                           <imprint>
+                              <pubPlace>Firenze</pubPlace>
+                              <publisher>Edizioni del Galluzzo per la Fondazione
+                                 Franceschini</publisher>
+                              <date>2018</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Bassetti2018b">
+                        <analytic>
+                           <title level="a">All’incrocio di culture tra Antichità e Medioevo. Storie
+                              di palinsesti a Verona, tra Ravenna e Bobbio</title>
+                           <author><forename>M.</forename><surname>Bassetti</surname></author>
+                        </analytic>
+                        <monogr>
+                           <imprint>
+                              <date>2018</date>
+                              <note type="accessed">2025-07-16T17:04:25Z</note>
+                              <note type="url">https://iris.univr.it/handle/11562/991133</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Baschera2000">
+                        <monogr>
+                           <title level="m">Ipotesi d'una relazione tra il servio Danielino e gli
+                              scolii veronesi a Virgilio</title>
+                           <idno type="ISBN">9788885073487</idno>
+                           <idno type="callNumber">PA6823 .B37 2000</idno>
+                           <author><forename>Claudio</forename><surname>Baschera</surname></author>
+                           <author><forename>Ignazio</forename><surname>Bevilacqua
+                              Lazise</surname></author>
+                           <edition>1. ed</edition>
+                           <imprint>
+                              <pubPlace>Verona</pubPlace>
+                              <publisher>Casa editrice Mazziana</publisher>
+                              <date>2000</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Studi filologici veronesi</title><biblScope
+                              unit="volume">1</biblScope></series>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Bohlin2012">
+                        <analytic>
+                           <title level="a">Some notes on the fragmentary Latin translation of
+                              Euclid's Elements preserved in the Codex Palimpsestus Veronensis
+                              Bibliothecae Capitularis XL (38)</title>
+                           <author><forename>Erik</forename><surname>Bohlin</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Latin vulgaire – latin tardif IX. Actes du IXe colloque
+                              international sur le latin vulgaire et tardif, Lyon 2-6 septembre
+                              2009</title>
+                           <imprint>
+                              <biblScope unit="volume">49</biblScope>
+                              <biblScope unit="issue">1</biblScope>
+                              <date>2012</date>
+                              <note type="accessed">2025-07-16T17:06:45Z</note>
+                              <note type="url"
+                                 >https://www.persee.fr/issue/mom_0184-1785_2012_act_49_1</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Bassetti2018c">
+                        <monogr>
+                           <title level="m">Nell'anno del Signore 517: Verona al tempo di Ursicino:
+                              crocevia di uomini, culture, scritture: catalogo della mostra, Verona,
+                              Biblioteca capitolare, 16 febbraio - 16 maggio 2018</title>
+                           <title type="short">Nell'anno del Signore 517</title>
+                           <idno type="ISBN">9788868091699</idno>
+                           <idno type="callNumber">Z6621.B5432 N45 2018</idno>
+                           <editor><forename>Massimiliano</forename><surname>Bassetti</surname></editor>
+                           <editor><name>Biblioteca capitolare di Verona</name></editor>
+                           <imprint>
+                              <pubPlace>Spoleto</pubPlace>
+                              <publisher>Fondazione Centro italiano di studi sull'alto
+                                 Medioevo</publisher>
+                              <date>2018</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Uomini e mondi medievali ; Mostre</title><biblScope
+                              unit="volume">53. 2</biblScope></series>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Baschera1999">
+                        <monogr>
+                           <title level="m">Glis scolii veronesi a Virgilio</title>
+                           <idno type="ISBN">88-85073-43-3</idno>
+                           <author><forename>L.</forename><surname>Baschera</surname></author>
+                           <imprint>
+                              <publisher>Mazziana</publisher>
+                              <date>1999</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="bookSection" xml:id="Gippert2024">
+                        <analytic>
+                           <title level="a">Written Sources on the Use of Reagents in the
+                              Palimpsests Veronenses XV, XL, and LXII: Towards an Archaeology of
+                              Destruction</title>
+                           <title type="short">Written Sources on the Use of Reagents in the
+                              Palimpsests Veronenses XV, XL, and LXII</title>
+                           <author><forename>Emanuel</forename><surname>Zingg</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="m">Palimpsests and Related Phenomena across Languages and
+                              Cultures</title>
+                           <idno type="ISBN">9783111552170</idno>
+                           <editor><forename>Jost</forename><surname>Gippert</surname></editor>
+                           <editor><forename>José</forename><surname>Maksimczuk</surname></editor>
+                           <editor><forename>Hasmik</forename><surname>Sargsyan</surname></editor>
+                           <imprint>
+                              <biblScope unit="page">21-56</biblScope>
+                              <publisher>De Gruyter</publisher>
+                              <date>2024</date>
+                              <note type="accessed">2025-07-16T16:50:36Z</note>
+                              <note type="url"
+                                 >https://www.degruyter.com/document/doi/10.1515/9783111552170-002/html</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Lowe1959">
+                        <monogr>
+                           <title level="m">Codices Latini Antiquiores</title>
+                           <author><forename>E.A.</forename><surname>Lowe</surname></author>
+                           <imprint>
+                              <biblScope unit="volume">IV Italy: Perugia - Verona</biblScope>
+                              <publisher>Clarendon Press</publisher>
+                              <date>1959</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Gysembergh2023">
+                        <monogr>
+                           <title level="m">Les fragments inédits du palimpseste Veronensis XL, 38:
+                              la découverte d'un résumé antique des dialogues platoniciens en
+                              latin</title>
+                           <title type="short">Les fragments inédits du palimpseste Veronensis XL,
+                              38</title>
+                           <idno type="ISBN">978-2-251-45509-9</idno>
+                           <idno type="callNumber">090</idno>
+                           <author><forename>Victor</forename><surname>Gysembergh</surname></author>
+                           <author><forename>Emanuel</forename><surname>Zingg</surname></author>
+                           <respStmt>
+                              <resp>contributor</resp>
+                              <persName><name>Sorbonne université</name></persName>
+                           </respStmt>
+                           <imprint>
+                              <pubPlace>Paris</pubPlace>
+                              <publisher>les Belles lettres</publisher>
+                              <date>2023</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Spagnolo1996">
+                        <monogr>
+                           <title level="m">I manoscritti della Biblioteca Capitolare di
+                              Verona</title>
+                           <idno type="ISBN">9788885073357</idno>
+                           <editor><forename>Antonio</forename><surname>Spagnolo</surname></editor>
+                           <editor><forename>Silvia</forename><surname>Marchi</surname></editor>
+                           <editor><name>Biblioteca Capitolare</name></editor>
+                           <editor><name>Biblioteca Capitolare</name></editor>
+                           <edition>1. ed</edition>
+                           <imprint>
+                              <pubPlace>Verona</pubPlace>
+                              <publisher>Mazziana</publisher>
+                              <date>1996</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="bookSection" xml:id="Zelzer1972">
+                        <analytic>
+                           <title level="a">Palaeographische Bemerkungen zur Vorlage der Wiener
+                              Liviushandschrift</title>
+                           <author><forename>Michaela</forename><surname>Zelzer</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="m">Antidosis. Festschrift für Walther Kraus zum 70.
+                              Geburtstag</title>
+                           <imprint>
+                              <biblScope unit="page">487-501</biblScope>
+                              <date>1972</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Seider1980">
+                        <analytic>
+                           <title level="a">Beiträge zur Geschichte der antiken
+                              Liviushandschriften</title>
+                           <author><forename>Richard</forename><surname>Seider</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Bibliothek und Wissenschaft</title>
+                           <idno type="ISSN">00678236</idno>
+                           <imprint>
+                              <biblScope unit="volume">14</biblScope>
+                              <biblScope unit="page">128-152</biblScope>
+                              <date>1980</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="bookSection" xml:id="Berschin1986">
+                        <analytic>
+                           <title level="a">Glossierte Virgil-Handschriften dreier Aetates
+                              Virgilianae</title>
+                           <title type="short">The role of the book in medieval culture</title>
+                           <author><forename>Walter</forename><surname>Berschin</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="m">The role of the book in medieval culture: proceedings of
+                              the Oxford international symposium 26 September - 1 October 1982.
+                              2</title>
+                           <idno type="ISBN">9782503780047</idno>
+                           <imprint>
+                              <pubPlace>Turnhout</pubPlace>
+                              <publisher>Brepols</publisher>
+                              <date>1986</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Bibliologia</title><biblScope unit="volume"
+                              >4</biblScope></series>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Pratesi1985">
+                        <analytic>
+                           <title level="a">Nuove divagazioni per uno studio della scrittura
+                              capitale. I codices Vergiliani antiquiores.</title>
+                           <author><forename>Alessandro</forename><surname>Pratesi</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Scrittura e Civiltà</title>
+                           <idno type="ISSN">0392-1697</idno>
+                           <imprint>
+                              <biblScope unit="volume">9</biblScope>
+                              <biblScope unit="page">5-33</biblScope>
+                              <date>1985</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Ricci2006">
+                        <monogr>
+                           <title level="m">Gregorio Magno e l'invenzione del Medioevo</title>
+                           <idno type="ISBN">9788884501936</idno>
+                           <idno type="callNumber">BX1076 .G737 2006</idno>
+                           <editor><forename>Luigi Giovanni
+                                 Giuseppe</forename><surname>Ricci</surname></editor>
+                           <editor><name>Biblioteca medicea laurenziana</name></editor>
+                           <imprint>
+                              <pubPlace>Firenze</pubPlace>
+                              <publisher>SISMEL Edizioni del Galluzzo</publisher>
+                              <date>2006</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Archivum Gregorianum</title><biblScope
+                              unit="volume">9</biblScope></series>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Paolucci2007">
+                        <analytic>
+                           <title level="a">I &lt;hi rend="italics"&gt;munuscula&lt;/hi&gt; del
+                              centone virgiliano &lt;hi rend="italics"&gt;Hippodamia&lt;/hi&gt; alla
+                              tradizione e al testo di Virgilio</title>
+                           <idno type="DOI">10.1484/J.EUPHR.5.125605</idno>
+                           <author><forename>Paola</forename><surname>Paolucci</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Euphrosyne</title>
+                           <idno type="ISSN">0870-0133, 2736-3082</idno>
+                           <imprint>
+                              <biblScope unit="volume">35</biblScope>
+                              <biblScope unit="page">159-176</biblScope>
+                              <date>2007</date>
+                              <note type="accessed">2025-07-16T16:15:36Z</note>
+                              <note type="url"
+                                 >https://www.brepolsonline.net/doi/10.1484/J.EUPHR.5.125605</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Materni2009">
+                        <analytic>
+                           <title level="a">La &lt;hi rend="italics"&gt;Geometria
+                              Gerberti&lt;/hi&gt; : un manuale scolastico del X secolo</title>
+                           <idno type="DOI">10.1484/J.EUPHR.5.124651</idno>
+                           <title type="short">La &lt;i&gt;Geometria Gerberti&lt;/i&gt;</title>
+                           <author><forename>Marta</forename><surname>Materni</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Euphrosyne</title>
+                           <idno type="ISSN">0870-0133, 2736-3082</idno>
+                           <imprint>
+                              <biblScope unit="volume">37</biblScope>
+                              <biblScope unit="page">363-374</biblScope>
+                              <date>2009</date>
+                              <note type="accessed">2025-07-16T16:13:42Z</note>
+                              <note type="url"
+                                 >https://www.brepolsonline.net/doi/10.1484/J.EUPHR.5.124651</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="bookSection" xml:id="Troncarelli2012">
+                        <analytic>
+                           <title level="a">"Haecine est biblioteca...". Manuscript fragments of
+                              Boethius' Library</title>
+                           <author><forename>Fabio</forename><surname>Troncarelli</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="m">Studi Alessandro Pratesi</title>
+                           <imprint>
+                              <biblScope unit="page">21-26</biblScope>
+                              <date>2012</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Engelbert1968">
+                        <analytic>
+                           <title level="a">Zur Frühgeschichte des Bobbieser Skriptoriums</title>
+                           <idno type="DOI">10.1484/J.RB.4.00589</idno>
+                           <author><forename>P.</forename><surname>Engelbert</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Revue Bénédictine</title>
+                           <idno type="ISSN">0035-0893, 2295-9009</idno>
+                           <imprint>
+                              <biblScope unit="volume">78</biblScope>
+                              <biblScope unit="issue">3-4</biblScope>
+                              <biblScope unit="page">220-260</biblScope>
+                              <date>1968</date>
+                              <note type="accessed">2025-07-14T14:50:11Z</note>
+                              <note type="url"
+                                 >https://www.brepolsonline.net/doi/10.1484/J.RB.4.00589</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Bohlin2013">
+                        <analytic>
+                           <title level="a">THREE NOTES ON THE &lt;hi rend="italics"&gt;EUCLIDES
+                              LATINUS&lt;/hi&gt; PRESERVED IN THE VERONA MANUSCRIPT, BIBLIOTECA
+                              CAPITOLARE XL (38)</title>
+                           <idno type="DOI">10.1017/S0009838812000535</idno>
+                           <author><forename>Erik</forename><surname>Bohlin</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">The Classical Quarterly</title>
+                           <idno type="ISSN">0009-8388, 1471-6844</idno>
+                           <imprint>
+                              <biblScope unit="volume">63</biblScope>
+                              <biblScope unit="issue">1</biblScope>
+                              <biblScope unit="page">455-459</biblScope>
+                              <date>2013</date>
+                              <note type="accessed">2025-07-14T14:42:15Z</note>
+                              <note type="url"
+                                 >https://www.cambridge.org/core/product/identifier/S0009838812000535/type/journal_article</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Virgil1969">
+                        <monogr>
+                           <title level="m">Opera: recognovit brevique adnotatione critica instruxit
+                              R. A. B. Mynors</title>
+                           <title type="short">Opera</title>
+                           <idno type="ISBN">9780198146537</idno>
+                           <idno type="callNumber">PA6105 .S8V62 1969</idno>
+                           <author><name>Virgil</name></author>
+                           <author><forename>R. A. B.</forename><surname>Mynors</surname></author>
+                           <imprint>
+                              <pubPlace>Oxonii (Oxford)</pubPlace>
+                              <publisher>E Typographeo Clarendoniano (Clarendon P.)</publisher>
+                              <date>1969</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Scriptorum classicorum bibliotheca
+                              Oxoniensis</title></series>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Geymonat1966">
+                        <analytic>
+                           <title level="a">I codici G e V di Virgilio</title>
+                           <author><forename>Mario</forename><surname>Geymonat</surname></author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Memorie dell'Istituto lombardo, Academia di scienze e
+                              lettere, classe di lettere, sc. morali e storiche</title>
+                           <imprint>
+                              <biblScope unit="volume">XXIX</biblScope>
+                              <biblScope unit="page">291-438</biblScope>
+                              <date>1966</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Geymonat1964">
+                        <monogr>
+                           <title level="m">Euclidis latine factii fragmenta Veronensia</title>
+                           <author><forename>Mario</forename><surname>Geymonat</surname></author>
+                           <imprint>
+                              <pubPlace>Milan</pubPlace>
+                              <date>1964</date>
+                           </imprint>
+                        </monogr>
+                        <series><title level="s">Testi e documenti per lo stidio
+                              dell'Antichità</title><biblScope unit="volume">9</biblScope></series>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Virgil1980">
+                        <monogr>
+                           <title level="m">Aeneidos liber secvndvs</title>
+                           <idno type="ISBN">9780198721062</idno>
+                           <idno type="callNumber">PA6803.B22 A8 1980</idno>
+                           <author><name>Virgil</name></author>
+                           <author><forename>R. G.</forename><surname>Austin</surname></author>
+                           <imprint>
+                              <pubPlace>Oxford [Eng.] : New York</pubPlace>
+                              <publisher>Clarendon Press ; Oxford University Press</publisher>
+                              <date>1980</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc status="draft">
+         <change when="2025-07-05" who="#editor">Initial TEI encoding - work in progress</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!-- The transcription of the text is not provided here. --></p>
+      </body>
+   </text>
+</TEI>
