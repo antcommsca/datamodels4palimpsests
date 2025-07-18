@@ -74,7 +74,7 @@
                            <finalRubric>EXPLICIT LIBER TRECESIMUS</finalRubric>
                         </msItem>
                         <msItem>
-                           <locus from="113v" to="171v">ff. 113v-171V</locus>
+                           <locus from="113v" to="171v">ff. 113v-171v</locus>
                            <rubric>INCIPIT LIBER XXXI</rubric>
                            <incipit>IN PARADISO SANO HOMINI</incipit>
                            <finalRubric>EXPLICIT LIBER XXXI</finalRubric>
@@ -91,7 +91,7 @@
                      <objectDesc form="codex">
                         <supportDesc material="parch">
                            <support>Thin, fine quality parchment. After its restoration the
-                              shelfmark identifies two seperated items: (a) the non-palimpsest
+                              shelfmark identifies two separated items: (a) the non-palimpsest
                               folios (ff. 1-201) that remain bound in codex form; (b) the palimpsest
                               bifolios of the volume that survive unbound in paper folders grouped
                               by signature. The current entry describes the bound codex.</support>
@@ -110,7 +110,7 @@
                                     rend="sup">9</hi>, xvi<hi rend="sup">8</hi>-xxvi<hi rend="sup"
                                     >8</hi></formula>
                               <catchwords>No catchwords.</catchwords>
-                              <signatures>Signutures in Latin numerals at the last verso of each
+                              <signatures>Signatures in Latin numerals at the last verso of each
                                  quire.</signatures>
                               <note/>
                            </collation>
@@ -216,7 +216,7 @@
                         <supportDesc material="parch">
                            <support>Partially palimpsest. Parchment either of thin, fine quality or
                               reused from three codices antiquiores. After its restoration the
-                              shelfmark identifies two seperated items: (a) the non-palimpsest
+                              shelfmark identifies two separated items: (a) the non-palimpsest
                               folios (ff. 1-201) that remain bound in codex form; (b) the palimpsest
                               bifolios of the volume that survive unbound in paper folders grouped
                               by signature. The current entry describes the unbound part of the
@@ -236,7 +236,7 @@
                               <formula>xxvii<hi rend="sup">8</hi>-xlii<hi rend="sup">8</hi>,
                                     xliii<hi rend="sup">10</hi></formula>
                               <catchwords>No catchwords.</catchwords>
-                              <signatures>Signutures in Latin numerals at the last verso of each
+                              <signatures>Signatures in Latin numerals at the last verso of each
                                  quire.</signatures>
                               <note/>
                            </collation>
@@ -266,7 +266,7 @@
                      <bindingDesc>
                         <binding>
                            <p>Unbound. After a restoration event the shelfmark identifies two now
-                              seperated items: (a) the non-palimpsest folios (ff. 1-201) that remain
+                              separated items: (a) the non-palimpsest folios (ff. 1-201) that remain
                               bound in codex form; (b) the (partially) palimpsest bifolios of the
                               volume that survive unbound in paper folders grouped by signature.</p>
                         </binding>
@@ -413,13 +413,13 @@
                      </objectDesc>
                      <handDesc hands="3">
                         <p>Single, fifth-century hand for the main textblock. Same-period scholia by
-                           two hands in mixed uncial and eraly half-uncial (C.L.A. 498).</p>
+                           two hands in mixed uncial and early half-uncial (C.L.A. 498).</p>
                      </handDesc>
                      <scriptDesc>
                         <p>Fifth-century rustic capitals in the main textblock.</p>
                      </scriptDesc>
                      <decoDesc>
-                        <decoNote>Indescernible</decoNote>
+                        <decoNote>Indscernible</decoNote>
                      </decoDesc>
                      <additions>
                         <p>In the intentionally wide margins fifth-century commentary by two hands
@@ -505,7 +505,7 @@
                      <decoDesc>
                         <decoNote type="initials">Large initial at the beginning of each column in
                            similar ink to the text.</decoNote>
-                        <decoNote type="rubrics">Initial and final rubrics in large uncial accupying
+                        <decoNote type="rubrics">Initial and final rubrics in large uncial occupying
                            an entire column.</decoNote>
                      </decoDesc>
                      <additions>
