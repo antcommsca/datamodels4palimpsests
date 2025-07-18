@@ -154,10 +154,10 @@
                      <objectDesc form="codex">
                         <supportDesc material="mixed">
                            <support>Parchment, partially palimpsest. After its restoration the
-                              shelfmark identifies two seperated items: (a) the bound part (ff. 1-3,
+                              shelfmark identifies two separated items: (a) the bound part (ff. 1-3,
                               82-107 &lt;83-108&gt;); (b) the damaged palimpsest bifolios of the
                               volume that survive unbound (ff. 4-81 &lt;4-82&gt;). In the place of
-                              the removed bifolios two paper leaves were insterted that describe the
+                              the removed bifolios two paper leaves were inserted that describe the
                               structure of the codex antiquior. <formula>iii+3+ii+26</formula>
                            </support>
                            <extent>
@@ -171,11 +171,11 @@
                               </dimensions>
                            </extent>
                            <foliation>Duplicate original foliation in blue ink and faded pencil. In
-                              the original f. 71 accurs twice and shifts the sequence.
+                              the original f. 71 occurs twice and shifts the sequence.
                               Post-rebinding new foliation at the bottom corner in pencil,
                               independent from the unbound part.</foliation>
                            <collation> Mostly quaternia. <catchwords>No catchwords.</catchwords>
-                              <signatures>Some signutures distinguishable in Latin
+                              <signatures>Some signatures distinguishable in Latin
                                  numerals.</signatures>
                               <note/>
                            </collation>
@@ -193,7 +193,7 @@
                      </handDesc>
                      <scriptDesc>
                         <p>The majority in cursive pre-caroline minuscule. Folios 2-3 in 9th-century
-                           minuscule. Folios 99r-107r also in a similar 9th sentury minuscule.</p>
+                           minuscule. Folios 99r-107r also in a similar 9th century minuscule.</p>
                      </scriptDesc>
                      <decoDesc>
                         <decoNote type="initials">Ornamented initials with floral and zoomorphic
@@ -347,7 +347,7 @@
                      <msItem>
                         <locus from="1" to="40">ff. 1-40 (recent foliation according to the codex
                            antiquior)</locus>
-                        <author ref="http://viaf.org/viaf/88881722">Justistian I</author>
+                        <author ref="http://viaf.org/viaf/88881722">Justinian I</author>
                         <title>Codex Justinianus</title>
                      </msItem>
                   </msContents>
@@ -361,7 +361,7 @@
                               &lt;4-82&gt;).</support>
                            <extent>
                               <measure unit="folios" quantity="40">40 folios: each folio of the
-                                 codex antuquior was folded in half to form a bifolio for the new
+                                 codex antiquior was folded in half to form a bifolio for the new
                                  codex.</measure>
                               <dimensions>
                                  <height unit="mm" quantity="350"/>
