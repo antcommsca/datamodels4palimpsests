@@ -11,8 +11,8 @@ The reference TEI files are contained in the `tei-xml` folder of this repository
 |---------------------|--------------|--------------------|
 | CPVRm0120_0.tei.xml | CXX(110)     |Reference prototype.|
 | CPVRm0134_0.tei.xml | CXXXIV (123) |Reference prototype.|
-| CPVRm0040_0.tei.xml | XL (38)      |To be reviewed.     |
-| CPVRm0062_0.tei.xml | LXII (60)    |To be reviewed.     |
+| CPVRm0040_0.tei.xml | XL (38)      |Complete.           |
+| CPVRm0062_0.tei.xml | LXII (60)    |Complete.           |
 
 
 ### The structure
