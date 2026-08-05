@@ -21,29 +21,27 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="CPVRm0120" type="palimpsest">
+            <msDesc>
                <msIdentifier>
-                  <country ref="https://www.geonames.org/3175395/italian-republic.html"
-                     >Italy</country>
-                  <settlement ref="https://www.geonames.org/3164527/verona.html">Verona</settlement>
+                  <country ref="http://vocab.getty.edu/page/tgn/1000080">Italy</country>
+                  <settlement ref="http://vocab.getty.edu/page/tgn/7003262">Verona</settlement>
+                  <institution>Fondazione Biblioteca Capitolare</institution>
                   <repository>Biblioteca Capitolare</repository>
-                  <idno>CXX</idno>
-                  <altIdentifier type="deprecated">
-                     <idno>110</idno>
-                  </altIdentifier>
-                  <altIdentifier type="Diktyon">
-                     <idno>70765</idno>
-                  </altIdentifier>
-                  <altIdentifier>
-                     <idno>CPVRm0120</idno>
+                  <collection>MSS.</collection>
+                  <idno type="shelfmark">CXX</idno>
+                  <idno type="olim">110</idno>
+                  <idno type="Diktyon">70765</idno>
+                  <altIdentifier type="internal">
+                     <idno>CPVRm120_0</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msPart n="1" type="scriptio_superior">
+               <msPart xml:id="CPVRm120_0_superior1" type="superior">
                   <msIdentifier>
-                     <idno>CPVRm0120_0</idno>
-                     <msName xml:lang="el">Στιχηράριον</msName>
-                     <msName xml:lang="la">Sticherarium</msName>
+                     <altIdentifier>
+                        <idno type="unit">MS. CXX - scriptio superior</idno>
+                     </altIdentifier>
                   </msIdentifier>
+                  <head>Sticherarion</head>
                   <msContents>
                      <msItem>
                         <locus from="1r" to="111v">ff. 1-111</locus>
@@ -156,10 +154,13 @@
                         </msItem>
                         <msItem>
                            <locus from="82v" to="86r">ff. 82v–86r</locus>
-                           <title>Τῇ Ἁγίᾳ καὶ Μεγάλῃ στ΄κονδάκιον</title>
+                           <title>Τῇ Ἁγίᾳ καὶ Μεγάλῃ στ΄ κονδάκιον</title>
                         </msItem>
                         <msItem>
-                           <locus from="86r" to="96v">ff. 86-88, 96</locus>
+                           <locusGrp>
+                              <locus from="86r" to="88v">ff. 86-88</locus>
+                              <locus from="96r" to="96v">ff. 96</locus>
+                           </locusGrp>
                            <title>Τῷ Ἁγίῳ καὶ Μεγάλῳ Σαββάτῳ κονδάκιον</title>
                         </msItem>
                         <msItem>
@@ -200,38 +201,40 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <objectDesc form="fragment">
+                     <objectDesc form="codex">
                         <supportDesc material="parch">
                            <support>
-                              <material>Parchment</material> of mediocre quality, partially
-                              palimpsest – only gatherings xvii (ιζ΄) and xviii (ιη΄) not
-                              palimpsest. Follows Gregory's law. <stamp notBefore="1792"
-                                 notAfter="1802">Round stamp in red ink on <locus>ff. 1r and
-                                    111v</locus>, <measure type="diameter" unit="mm" quantity="25"
-                                    >25 mm in diameter</measure>. The text in serif typeface follows
-                                 the circular shape of the stamp and reads "BIBLIOTEQUE NATIONALE ⁘"
-                                 with a stylised, cursive "RF" in the middle of the design. It
-                                 belongs to the Bibliothèque Nationale de France and was in use
-                                 between 1792 and 1802. It is described by Josserand &amp; Bruno
-                                 (1960, pp. 261-298) as type B, illustration n. 17. </stamp>
+                              <p><material>Parchment</material> of mediocre quality, partially
+                                 palimpsest – only gatherings xvii (ιζ΄) and xviii (ιη΄) not
+                                 palimpsest. Follows Gregory's law.</p>
+                              <p><stamp notBefore="1792" notAfter="1802">Round stamp in red ink on
+                                       <locus from="1r" to="1r">ff. 1r</locus> and <locus
+                                       from="111v" to="111v">111v</locus>, <measure type="diameter"
+                                       unit="mm" quantity="25">25 mm in diameter</measure>. The text
+                                    in serif typeface follows the circular shape of the stamp and
+                                    reads <quote>BIBLIOTEQUE NATIONALE ⁘</quote> with a stylised,
+                                    cursive <quote>RF</quote> in the middle of the design. It
+                                    belongs to the Bibliothèque Nationale de France and was in use
+                                    between <date notBefore="1792" notAfter="1802">1792 and
+                                       1802</date>. It is described by Josserand &amp; Bruno (1960,
+                                    pp. 261-298) as type B, illustration n. 17</stamp>.</p>
                            </support>
                            <extent>
-                              <measure unit="folios" quantity="111">111 folios</measure>
+                              <measure unit="leaf" quantity="111">111 leaves</measure>
                               <dimensions>
-                                 <height unit="mm" quantity="200"/>
-                                 <width unit="mm" quantity="135"/>
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="140"/>
                               </dimensions>
                               <formula>i+II+111+i</formula>
                            </extent>
                            <foliation>Foliation in Arabic numerals written in pencil. Traces of the
                               original foliation are still visible in red ink, although most have
                               become obsolete due to damage sustained in the upper corners of the
-                              parchment (still discernible in fols. 19, 20, 22).</foliation>
+                              parchment (still discernible in <locus>fols. 19, 20,
+                              22</locus>).</foliation>
                            <collation>
-                              <formula>ii<hi rend="sup">8</hi>-vii<hi rend="sup">8</hi>, xi<hi
-                                    rend="sup">8</hi>-xv<hi rend="sup">8</hi>, xvii<hi rend="sup"
-                                    >7</hi>, xvi<hi rend="sup">8</hi>, xviii<hi rend="sup"
-                                 >8</hi></formula>
+                              <formula>2-3:8, 11-15:8, 17:7, 16:8, 18:8</formula>
+                              <note>Quires 16 and 17 inversed.</note>
                               <signatures>Minuscule Greek numerals in dark brown ink in the upper
                                  right corner of the recto. Mostly indiscernible.</signatures>
                            </collation>
@@ -242,35 +245,32 @@
                            </condition>
                         </supportDesc>
                         <layoutDesc>
-                           <layout columns="1" writtenLines="11">w 25(85)25 mm; h 20(145)35
-                              mm</layout>
+                           <layout columns="1" writtenLines="11" source="#Formentin1980">Lake, I
+                              2b.</layout>
                         </layoutDesc>
                      </objectDesc>
-                     <handDesc hands="1">
-                        <p>Hand not identified</p>
-                     </handDesc>
-                     <musicNotation>
-                        <p>Typology of musical notation (and liturgical book in general)
-                           well-documented in Salento during the 13th and 14th centuries (Arnesano,
-                           2010)</p>
+                     <musicNotation source="#Arnesano2010">
+                        <p>Musical notation of a typology well-documented in Salento during the 13th
+                           and 14th centuries (Arnesano, 2010)</p>
                      </musicNotation>
                      <decoDesc>
                         <decoNote type="initials">Fully traced elongated initials in red ink,
-                           extending three lines in height, when not towards the bottom lines.
+                           extending three lines in height, except when near the bottom lines.
                            Angular edges, in some cases adorned with floral motifs.</decoNote>
-                        <decoNote type="rubrics">Rubrirs in similar to the initials red ink with
+                        <decoNote type="rubrics">Rubrirs in red ink similar to the initials with
                            light beige highlight.</decoNote>
                      </decoDesc>
                      <additions>
-                        <p>On the <locus>verso of the front endsheet</locus> a pencil note reads:
-                           <q xml:lang="el-gr">Τὸ βιβλίον τοῦτο ἐστὶ Κοντακάριον Kontacarium εἰς ὅ περιέχονται καὶ οἷ
-                           οἷκοι τῶν ἑορτῶν. ἐν <placeName xml:lang="el"
-                              ref="https://www.geonames.org/3164527/verona.html">Βερὠνᾐ</placeName>
-                           <date when="1843-08-02">2 agosto 1843</date>
-                           <persName xml:lang="el">Παναγιώτης Γριτσάνης</persName>
-                           <persName xml:lang="it">Panajotti Grizani</persName> greco da <placeName
-                              xml:lang="it" ref="https://www.geonames.org/251279/zakynthos.html"
-                              >Zante</placeName></q></p>
+                        <p>On the <locus>verso of the front endsheet</locus> a pencil note reads: <q
+                              xml:lang="el">Τὸ βιβλίον τοῦτο ἐστὶ Κοντακάριον Kontacarium εἰς ὅ
+                              περιέχονται καὶ οἷ οἷκοι τῶν ἑορτῶν. ἐν <placeName xml:lang="el"
+                                 ref="http://vocab.getty.edu/page/tgn/7003262">Βερὠνᾐ</placeName>
+                              <date when="1843-08-02">2 agosto 1843</date>
+                              <persName xml:lang="el">Παναγιώτης Γριτσάνης</persName>
+                              <persName xml:lang="it">Panajotti Grizani</persName> greco da
+                                 <placeName xml:lang="it"
+                                 ref="http://vocab.getty.edu/page/tgn/7011083"
+                           >Zante</placeName></q></p>
                         <p>On the <locus>first flyleaf recto</locus> information on the extent of
                            the codex: <q>fol. 111 a. 205 l.140</q></p>
                         <p>On the <locus>second flyleaf recto</locus> description of the codex and
@@ -291,11 +291,11 @@
                               Antiph. et Tractus sub notis musicis quibus [en]im Gr[a]eci
                               [ut]ebantur."</decoNote>
                            <condition>
-                              <p>Weak binding structure. Sewing on three recessed chords broken
-                                 along the upper joint, in the point of attachment between the
-                                 textblock and the upper board. The cover is detached from the
-                                 textblock in its upper part, but the lower board still coherent
-                                 with the textblock.</p>
+                              <p>Weak binding structure. Sewing on three recessed cords broken along
+                                 the upper joint, in the point of attachment between the textblock
+                                 and the upper board. The cover is detached from the textblock in
+                                 its upper part, but the lower board still coherent with the
+                                 textblock.</p>
                               <p>Some threads of the endbands sewing torn and attached to the cover
                                  only through their laced-in core.</p>
                               <p>Weak sewing structure in the first gatherings if the manuscript.
@@ -311,25 +311,26 @@
                   </physDesc>
                   <history>
                      <origin>
-                        <origPlace ref="https://www.geonames.org/3168677/salento.html"
-                           >Salento?</origPlace>
-                        <origDate notBefore="1301" notAfter="1400">14th century</origDate>
-                     </origin>
+                        <origDate notBefore="1225" notAfter="1275">Mid-13th century</origDate>
+                        probably in <origPlace ref="http://vocab.getty.edu/page/tgn/7004622"
+                           cert="unknown" source="#Arnesano2010">Salento</origPlace>. </origin>
                      <provenance>Held in the Bibliothéque Nationale de France for some time after
                            <date notBefore="1792">1792</date> as evident by the stamps present in
                            <locus>ff. 1r and 111v</locus>.</provenance>
                   </history>
                </msPart>
-               <msPart n="2" type="scriptio_inferior">
+               <msPart xml:id="CPVRm120_0_inferior1" type="inferior">
                   <msIdentifier>
-                     <idno>CPVRm0120_0A</idno>
+                     <altIdentifier>
+                        <idno type="unit">MS. CXX - scriptio inferior 1</idno>
+                     </altIdentifier>
                   </msIdentifier>
                   <msContents>
                      <textLang mainLang="grc">Ancient Greek (to 1453)</textLang>
                      <msItem>
                         <locusGrp>
                            <locus from="1r" to="88v">ff. 1-88</locus>
-                           <locus from="69r" to="103v">96-103</locus>
+                           <locus from="96r" to="103v">96-103</locus>
                         </locusGrp>
                         <msItem>
                            <locus from="18v">f. 18v</locus>
@@ -347,7 +348,7 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <objectDesc form="fragment">
+                     <objectDesc form="codex">
                         <supportDesc material="parch">
                            <support>Mediocre quality parchment. Support palimpsested and reused for
                               codex recentior.</support>
@@ -362,15 +363,8 @@
                            <layout columns="1"/>
                         </layoutDesc>
                      </objectDesc>
-                     <handDesc hands="1">
-                        <p>Hand not identified.</p>
-                     </handDesc>
-                     <scriptDesc>
-                        <p/>
-                     </scriptDesc>
                      <musicNotation>
-                        <p>Musical notation distinct from the one of the scriptio superior. To be
-                           described.</p>
+                        <p>Musical notation distinct from the one of the scriptio superior.</p>
                      </musicNotation>
                      <decoDesc>
                         <decoNote type="initials">Red ink initials and titles.</decoNote>
@@ -380,70 +374,122 @@
                      <summary/>
                      <origin>
                         <origPlace>Undetermined</origPlace>
-                        <origDate notBefore="1101" notAfter="1200">12th century</origDate>
+                        <origDate notBefore="1101" notAfter="1200" source="#Formentin1980">12th
+                           century</origDate>
                      </origin>
                   </history>
                </msPart>
-               <msPart n="3" type="scriptio_inferior">
+               <msPart xml:id="CPVRm120_0_inferior2" type="inferior">
                   <msIdentifier>
-                     <idno>CPVRm0120_0B</idno>
+                     <altIdentifier>
+                        <idno type="unit">MS. CXX - scriptio inferior 2</idno>
+                     </altIdentifier>
                   </msIdentifier>
                   <msContents>
                      <textLang mainLang="grc">Ancient Greek (to 1453)</textLang>
                      <msItem>
                         <locusGrp>
-                           <locus from="11r" to="14v">11–14</locus>
-                           <locus from="17r" to="18v">17–18</locus>
-                           <locus from="23r" to="24v">23–24</locus>
-                           <locus from="41r" to="41v">41</locus>
-                           <locus from="43r" to="49v">43–49</locus>
+                           <locus from="12r" to="13v">ff. 12-13</locus>
+                           <locus from="17r" to="18v">17-18</locus>
+                           <locus from="23r" to="24v">23-24</locus>
+                        </locusGrp>
+                        <note/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="parch">
+                           <support>Parchment.</support>
+                           <extent>
+                              <measure unit="leaf" quantity="6">6 leaves</measure>
+                           </extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1"/>
+                        </layoutDesc>
+                     </objectDesc>
+                     <scriptDesc>
+                        <scriptNote source="#Degni2026">Informal round script. Cf. <ref
+                              target="https://pinakes.irht.cnrs.fr/notices/cote/68629/">Vatican,
+                              Biblioteca Apostolica Vaticana, Vat. gr. 2000</ref>, <ref
+                              target="https://pinakes.irht.cnrs.fr/notices/cote/40706/">Messina,
+                              Biblioteca Regionale Universitaria 'Giacomo Longo', S.S. Salv.
+                              45</ref>.</scriptNote>
+                     </scriptDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="0900" notAfter="1000" source="#Degni2026">10th
+                           century</origDate>; <origPlace
+                           ref="http://vocab.getty.edu/page/tgn/7007850" cert="unknown"
+                           >Calabria</origPlace> or <origPlace
+                           ref="http://vocab.getty.edu/page/tgn/7003897" cert="unknown"
+                           >Messina</origPlace>. </origin>
+                  </history>
+               </msPart>
+               <msPart xml:id="CPVRm120_0_inferior3" type="inferior">
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno type="unit">MS. CXX - scriptio inferior 3</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <textLang mainLang="grc">Ancient Greek (to 1453)</textLang>
+                     <msItem>
+                        <locusGrp>
+                           <locus from="43r" to="43v">ff. 43</locus>
+                           <locus from="46r" to="46v">46</locus>
+                           <locus from="49r" to="49v">49</locus>
                            <locus from="51r" to="51v">51</locus>
                            <locus from="54r" to="54v">54</locus>
                            <locus from="56r" to="56v">56</locus>
-                           <locus from="65r" to="71v">65–71</locus>
+                           <locus from="65r" to="67v">65–67</locus>
+                           <locus from="70r" to="72v">70–72</locus>
                            <locus from="81r" to="82v">81–82</locus>
                            <locus from="87r" to="88v">87–88</locus>
                         </locusGrp>
-                        <note>Erased text from a codex written in two columns.</note>
                         <msItem>
                            <locus from="49v" to="49v">f. 49v</locus>
-                           <author xml:lang="el">Ἱππόλυτος Θηβαῖος</author>
-                           <title xml:lang="">Ἱππολύτου Θηβαίου εἰς τὴν εὐγένειαν τῆς ὑπεραγίας
-                              θεοτόκου</title>
+                           <author xml:lang="el">Ἱππολύτου Θηβαίου</author>
+                           <title xml:lang="el">εἰς τὴν εὐγένειαν τῆς ὑπεραγίας θεοτόκου</title>
                         </msItem>
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <objectDesc form="fragment">
+                     <objectDesc form="codex">
                         <supportDesc material="parch">
-                           <support>Reused parchment</support>
+                           <support><material>Parchment</material></support>
+                           <extent><measure unit="leaf">16 leaves</measure></extent>
                         </supportDesc>
                         <layoutDesc>
-                           <layout columns="2"/>
+                           <layout columns="2" source="#Formentin1980">Lake, II 14a, ruled from
+                              flesh to hair side.</layout>
                         </layoutDesc>
                      </objectDesc>
-                     <handDesc hands="1">
-                        <p>Hand not identified.</p>
-                     </handDesc>
                      <scriptDesc>
-                        <p>Eleventh-century script, not described.</p>
+                        <scriptNote source="#Degni2026">Small-scale cursive script slanting to the
+                           right, with many ligatures, that belongs to the 10th-century informal
+                           scripts. Cf. <ref
+                              target="https://pinakes.irht.cnrs.fr/notices/cote/50178/">Paris,
+                              Bibliothèque nationale de France, Grec 598</ref>, <ref
+                              target="https://pinakes.irht.cnrs.fr/notices/cote/16533/">Florence,
+                              Biblioteca Medicea Laurenziana, Plut. 69.6</ref>.</scriptNote>
                      </scriptDesc>
-                     <musicNotation>
-                        <p>No notation present.</p>
-                     </musicNotation>
-                     <decoDesc>
-                        <decoNote>Indiscernible</decoNote>
-                     </decoDesc>
                   </physDesc>
                   <history>
                      <origin>
-                        <origDate notBefore="1001" notAfter="1100">11th century</origDate>
+                        <p><origDate notBefore="0950" notAfter="1000" source="#Degni2026">Second
+                              half of the 10th century</origDate>. The Constantinopolitan graphic
+                           tradition does not imply that the manuscript was copied in the capital or
+                           its immediate vicinity.</p>
                      </origin>
                   </history>
                </msPart>
-               <msPart n="4" type="scriptio_inferior">
+               <msPart xml:id="CPVRm120_0_inferior4" type="inferior">
                   <msIdentifier>
-                     <idno>CPVRm0120_0C</idno>
+                     <altIdentifier>
+                        <idno type="unit">MS. CXX - scriptio inferior 4</idno>
+                     </altIdentifier>
                   </msIdentifier>
                   <msContents>
                      <msItem>
@@ -457,26 +503,26 @@
                      </msItem>
                   </msContents>
                   <physDesc>
-                     <objectDesc form="fragment">
+                     <objectDesc form="codex">
                         <supportDesc material="parch">
-                           <support>Reused parchment</support>
+                           <support><material>Parchment</material>.</support>
                            <extent>
-                              <measure unit="folios" quantity="4">4 folios</measure> Codex antiqior
+                              <measure unit="folios" quantity="4">4 leaves</measure>. Codex antiqior
                               larger in dimensions than the current codex recentior. All four
-                              margins cropped to fit the new format. </extent>
-                           <condition>Havily discoloured folia by the use of chemical reagents, that
-                              were successful in most cases to improve the legibility of the
-                              scriptio inferior.</condition>
+                              margins cropped to fit the new format.</extent>
+                           <condition>Leaves discoloured by the use of chemical reagents, that were
+                              successful in most cases to enhance the legibility of the
+                              undertext.</condition>
                         </supportDesc>
                         <layoutDesc>
                            <layout columns="1"/>
                         </layoutDesc>
                      </objectDesc>
-                     <handDesc hands="1">
-                        <p>Hand not identified.</p>
-                     </handDesc>
                      <scriptDesc>
-                        <p>Eleventh-century regular minuscule script.</p>
+                        <scriptNote source="#Degni2026">Late Perlschrift. Cf. <ref
+                              target="https://pinakes.irht.cnrs.fr/notices/cote/53591/">Paris,
+                              Bibliothèque nationale de France, Supplément grec
+                           905</ref>.</scriptNote>
                      </scriptDesc>
                      <decoDesc>
                         <decoNote>No decoration discernible.</decoNote>
@@ -484,41 +530,77 @@
                   </physDesc>
                   <history>
                      <origin>
-                        <origPlace>Undetermined</origPlace>
-                        <origDate notBefore="1001" notAfter="1100">11th century</origDate>
+                        <p><origDate notBefore="1025" notAfter="1125" source="#Degni2026">Mid- or
+                              second half of the 11th century, without ruling out the early 12th
+                              century</origDate>. The Constantinopolitan graphic tradition does not
+                           imply that the manuscript was copied in the capital or its immediate
+                           vicinity.</p>
                      </origin>
                   </history>
                </msPart>
                <additional>
+                  <surrogates>
+                     <bibl type="digital-facsimile">
+                        <ref
+                           target="https://digitallibrary.univr.it/annona/?iiif-content=https://digitallibrary.univr.it/manifests/CPVRm0120_0.json"
+                           >Digitized heritage</ref>
+                     </bibl>
+                  </surrogates>
                   <listBibl>
-                     <biblStruct type="bookSection">
+                     <biblStruct type="bookSection" xml:id="Arnesano2010">
                         <analytic>
                            <title level="a">Manoscritti greci di Terra d’Otranto. Recenti scoperte e
                               attribuzioni (2005-2008)</title>
-                           <author><forename>Daniele</forename><surname>Arnesano</surname></author>
+                           <author>
+                              <forename>Daniele</forename>
+                              <surname>Arnesano</surname>
+                           </author>
                         </analytic>
                         <monogr>
                            <title level="m">Τοξότης. Studies for Stefano Parenti</title>
-                           <editor><forename>Daniel</forename><surname>Galadza</surname></editor>
+                           <editor>
+                              <forename>Daniel</forename>
+                              <surname>Galadza</surname>
+                           </editor>
                            <imprint>
                               <pubPlace>Grottaferrata</pubPlace>
                               <biblScope unit="page">63-101</biblScope>
                               <publisher>Monastero Esarchico</publisher>
                               <date>2010</date>
                               <note type="accessed">2023-11-14</note>
-                              <note type="url"
-                                 >https://www.academia.edu/1285090/Manoscritti_greci_di_Terra_d_Otranto_Recenti_scoperte_e_attribuzioni_2005_2008_in_Toxotes_Studies_for_Stefano_Parenti_ed_by_D_Galadza_N_Glibeti%C4%87_G_Radle_Grottaferrata_2010_Analekta_Kryptoferres_9_pp_63_101</note>
+                              <note type="url">
+                                 https://www.academia.edu/1285090/Manoscritti_greci_di_Terra_d_Otranto_Recenti_scoperte_e_attribuzioni_2005_2008_in_Toxotes_Studies_for_Stefano_Parenti_ed_by_D_Galadza_N_Glibeti%C4%87_G_Radle_Grottaferrata_2010_Analekta_Kryptoferres_9_pp_63_101</note>
                            </imprint>
                         </monogr>
-                        <series><title level="s">Ἀνάλεκτα Κρυπτοφέρρης</title><biblScope
-                              unit="volume">9</biblScope></series>
+                        <series>
+                           <title level="s">Ἀνάλεκτα Κρυπτοφέρρης</title>
+                           <biblScope unit="volume">9</biblScope>
+                        </series>
                      </biblStruct>
-                     <biblStruct type="journalArticle">
+                     <biblStruct type="journalArticle" xml:id="Parenti2017">
+                        <monogr>
+                           <title level="m">Tipologie dei libri liturgici greci del Salento</title>
+                           <idno type="DOI">10.1285/I11245344V2017N3P43</idno>
+                           <author>
+                              <forename>Stefano</forename>
+                              <surname>Parenti</surname>
+                           </author>
+                           <imprint>
+                              <date>2017</date>
+                              <note type="accessed">2023-11-14T19:59:29Z</note>
+                              <note type="url">
+                                 http://siba-ese.unisalento.it/index.php/rudiae/article/view/19430/16560</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Formentin1980">
                         <analytic>
                            <title level="a">I palinsesti greci della Biblioteca Nazionale Marciana e
                               della Capitolare di Verona</title>
-                           <author><forename>Maria
-                              Rosa</forename><surname>Formentin</surname></author>
+                           <author>
+                              <forename>Maria Rosa</forename>
+                              <surname>Formentin</surname>
+                           </author>
                         </analytic>
                         <monogr>
                            <title level="j">Δίπτυχα</title>
@@ -530,30 +612,41 @@
                            </imprint>
                         </monogr>
                      </biblStruct>
-                     <biblStruct type="book">
+                     <biblStruct type="book" xml:id="Escobar_Chico2006a">
                         <monogr>
                            <title level="m">El palimpsesto grecolatino como fenómeno librario y
                               textual</title>
                            <idno type="ISBN">978-84-7820-873-9</idno>
-                           <editor><forename>Ángel</forename><surname>Escobar
-                              Chico</surname></editor>
-                           <editor><forename>Dieter</forename><surname>Harlfinger</surname></editor>
+                           <editor>
+                              <forename>Ángel</forename>
+                              <surname>Escobar Chico</surname>
+                           </editor>
+                           <editor>
+                              <forename>Dieter</forename>
+                              <surname>Harlfinger</surname>
+                           </editor>
                            <imprint>
                               <pubPlace>Zaragoza</pubPlace>
                               <publisher>Instituciòn "Fernando el Católico"</publisher>
                               <date>2006</date>
                               <note type="accessed">2023-11-14</note>
-                              <note type="url"
-                                 >https://ifc.dpz.es/recursos/publicaciones/26/54/_ebook.pdf</note>
+                              <note type="url">
+                                 https://ifc.dpz.es/recursos/publicaciones/26/54/_ebook.pdf</note>
                            </imprint>
                         </monogr>
-                        <series><title level="s">Colección Actas Filología</title></series>
+                        <series>
+                           <title level="s">Colección Actas Filología</title>
+                        </series>
                      </biblStruct>
-                     <biblStruct type="bookSection">
+                     <biblStruct type="bookSection" xml:id="Giannouli2019">
                         <analytic>
                            <title level="a">Hymn Writing in Byzantium: Forms and Writers</title>
+                           <idno type="DOI">10.1163/9789004392885_021</idno>
                            <title type="short">Hymn Writing in Byzantium</title>
-                           <author><forename>Antonia</forename><surname>Giannouli</surname></author>
+                           <author>
+                              <forename>Antonia</forename>
+                              <surname>Giannouli</surname>
+                           </author>
                         </analytic>
                         <monogr>
                            <title level="m">A Companion to Byzantine Poetry</title>
@@ -563,16 +656,19 @@
                               <publisher>Brill</publisher>
                               <date>2019</date>
                               <note type="accessed">2024-04-16T17:08:31Z</note>
-                              <note type="url"
-                                 >https://brill.com/display/book/9789004392885/BP000032.xml</note>
+                              <note type="url">
+                                 https://brill.com/display/book/9789004392885/BP000032.xml</note>
                            </imprint>
                         </monogr>
                      </biblStruct>
-                     <biblStruct type="journalArticle">
+                     <biblStruct type="journalArticle" xml:id="Omont1891">
                         <analytic>
                            <title level="a">Les manuscrits grecs de la Bibliothèque capitulaire et
                               de la Bibliothèque communale de Vérone</title>
-                           <author><forename>Henri</forename><surname>Omont</surname></author>
+                           <author>
+                              <forename>Henri</forename>
+                              <surname>Omont</surname>
+                           </author>
                         </analytic>
                         <monogr>
                            <title level="j">Centralblatt für Bibliothekswesen</title>
@@ -582,20 +678,27 @@
                               <biblScope unit="page">489-497</biblScope>
                               <date>1891</date>
                               <note type="accessed">2023-11-14</note>
-                              <note type="url"
-                                 >https://resolver.sub.uni-goettingen.de/purl?338182551_0008|log128</note>
+                              <note type="url">
+                                 https://resolver.sub.uni-goettingen.de/purl?338182551_0008|log128</note>
                            </imprint>
                         </monogr>
                      </biblStruct>
-                     <biblStruct type="book">
+                     <biblStruct type="book" xml:id="Spagnolo1996">
                         <monogr>
                            <title level="m">I manoscritti della Biblioteca Capitolare di
                               Verona</title>
                            <idno type="ISBN">978-88-85073-35-7</idno>
-                           <editor><forename>Antonio</forename><surname>Spagnolo</surname></editor>
-                           <editor><forename>Silvia</forename><surname>Marchi</surname></editor>
-                           <editor><name>Biblioteca Capitolare</name></editor>
-                           <editor><name>Biblioteca Capitolare</name></editor>
+                           <editor>
+                              <forename>Antonio</forename>
+                              <surname>Spagnolo</surname>
+                           </editor>
+                           <editor>
+                              <forename>Silvia</forename>
+                              <surname>Marchi</surname>
+                           </editor>
+                           <editor>
+                              <name>Biblioteca Capitolare</name>
+                           </editor>
                            <edition>1. ed</edition>
                            <imprint>
                               <pubPlace>Verona</pubPlace>
@@ -604,12 +707,15 @@
                            </imprint>
                         </monogr>
                      </biblStruct>
-                     <biblStruct type="book">
+                     <biblStruct type="book" xml:id="Mioni1965">
                         <monogr>
                            <title level="m">Catalogo di manoscritti greci esistenti nelle
                               biblioteche italiane</title>
                            <idno type="ISBN">88-240-3074-2</idno>
-                           <author><forename>Elpidio</forename><surname>Mioni</surname></author>
+                           <author>
+                              <forename>Elpidio</forename>
+                              <surname>Mioni</surname>
+                           </author>
                            <imprint>
                               <pubPlace>Roma</pubPlace>
                               <biblScope unit="volume">2</biblScope>
@@ -617,32 +723,159 @@
                               <date>1965</date>
                            </imprint>
                         </monogr>
-                        <series><title level="s">Indici e Cataloghi</title><biblScope unit="volume"
-                              >XX</biblScope></series>
+                        <series>
+                           <title level="s">Indici e Cataloghi</title>
+                           <biblScope unit="volume">XX</biblScope>
+                        </series>
                      </biblStruct>
-                     <biblStruct type="bookSection">
+                     <biblStruct type="bookSection" xml:id="Escobar_Chico2006b">
                         <analytic>
                            <title level="a">I manoscritti liturgico-musicali bizantini: tipologie e
                               organizzazione</title>
-                           <author><forename>Annalisa</forename><surname>Doneda</surname></author>
+                           <author>
+                              <forename>Annalisa</forename>
+                              <surname>Doneda</surname>
+                           </author>
                         </analytic>
                         <monogr>
                            <title level="m">El palimpsesto grecolatino como fenómeno librario y
                               textual</title>
                            <idno type="ISBN">978-84-7820-873-9</idno>
-                           <editor><forename>Ángel</forename><surname>Escobar
-                              Chico</surname></editor>
-                           <editor><forename>Dieter</forename><surname>Harlfinger</surname></editor>
+                           <editor>
+                              <forename>Ángel</forename>
+                              <surname>Escobar Chico</surname>
+                           </editor>
+                           <editor>
+                              <forename>Dieter</forename>
+                              <surname>Harlfinger</surname>
+                           </editor>
                            <imprint>
                               <pubPlace>Zaragoza</pubPlace>
                               <publisher>Instituciòn "Fernando el Católico"</publisher>
                               <date>2006</date>
                               <note type="accessed">2023-11-14</note>
-                              <note type="url"
-                                 >https://ifc.dpz.es/recursos/publicaciones/26/54/_ebook.pdf</note>
+                              <note type="url">
+                                 https://ifc.dpz.es/recursos/publicaciones/26/54/_ebook.pdf</note>
                            </imprint>
                         </monogr>
-                        <series><title level="s">Colección Actas Filología</title></series>
+                        <series>
+                           <title level="s">Colección Actas Filología</title>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Tessari2018">
+                        <monogr>
+                           <title level="m">Byzantine music and the Veneto region: studies in the
+                              manuscript collections</title>
+                           <title type="short">Byzantine music and the Veneto region</title>
+                           <idno type="ISBN">978-88-6274-830-8</idno>
+                           <author>
+                              <forename>Silvia</forename>
+                              <surname>Tessari</surname>
+                           </author>
+                           <imprint>
+                              <pubPlace>Alessandria</pubPlace>
+                              <publisher>Edizioni dell'Orso</publisher>
+                              <date>2018</date>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title level="s">Hellenica</title>
+                           <biblScope unit="volume">69</biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journalArticle" xml:id="Moran1985">
+                        <analytic>
+                           <title level="a">A List of Greek Music Palimpsests</title>
+                           <idno type="DOI">10.2307/932689</idno>
+                           <author>
+                              <forename>Neil K.</forename>
+                              <surname>Moran</surname>
+                           </author>
+                        </analytic>
+                        <monogr>
+                           <title level="j">Acta Musicologica</title>
+                           <idno type="ISSN">00016241</idno>
+                           <imprint>
+                              <biblScope unit="volume">57</biblScope>
+                              <biblScope unit="issue">1</biblScope>
+                              <biblScope unit="page">50</biblScope>
+                              <date>1985</date>
+                              <note type="accessed">2026-08-04T13:16:47Z</note>
+                              <note type="url"
+                                 >https://www.jstor.org/stable/932689?origin=crossref</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="book" xml:id="Ehrhard1937">
+                        <monogr>
+                           <title level="m">Überlieferung und Bestand der hagiographischen und
+                              homiletischen Literatur der griechischen Kirche von den Anfängen bis
+                              zum Ende des 16. Jahrhunderts</title>
+                           <idno type="DOI">10.1515/9783112778838</idno>
+                           <idno type="ISBN">978-3-11-277883-8</idno>
+                           <author>
+                              <forename>Albert</forename>
+                              <surname>Ehrhard</surname>
+                           </author>
+                           <imprint>
+                              <publisher>De Gruyter</publisher>
+                              <date>1937</date>
+                              <note type="accessed">2026-08-04T13:53:26Z</note>
+                              <note type="url">
+                                 https://www.degruyterbrill.com/document/doi/10.1515/9783112778838/html</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="presentation" xml:id="Bucca2026">
+                        <monogr>
+                           <title level="m">La pratica della riscrittura dei manoscritti musicali
+                              bizantini</title>
+                           <respStmt>
+                              <resp>presenter</resp>
+                              <persName>
+                                 <forename>Donatella</forename>
+                                 <surname>Bucca</surname>
+                              </persName>
+                           </respStmt>
+                           <imprint>
+                              <pubPlace>Biblioteca Capitolare</pubPlace>
+                              <date>2026</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="presentation" xml:id="Arnesano2026">
+                        <monogr>
+                           <title level="m">Biblioteca sommersa di Terra d'Otranto: Il caso dei
+                              palinsesti veronesi</title>
+                           <respStmt>
+                              <resp>presenter</resp>
+                              <persName>
+                                 <forename>Daniele</forename>
+                                 <surname>Arnesano</surname>
+                              </persName>
+                           </respStmt>
+                           <imprint>
+                              <pubPlace>Biblioteca Capitolare</pubPlace>
+                              <date>2026</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <biblStruct type="presentation" xml:id="Degni2026">
+                        <monogr>
+                           <title level="m">The hidden Greek of the mss Veron. CXX &amp;
+                              CXXXIV</title>
+                           <respStmt>
+                              <resp>presenter</resp>
+                              <persName>
+                                 <forename>Paola</forename>
+                                 <surname>Degni</surname>
+                              </persName>
+                           </respStmt>
+                           <imprint>
+                              <pubPlace>Biblioteca Capitolare</pubPlace>
+                              <date>2026</date>
+                           </imprint>
+                        </monogr>
                      </biblStruct>
                   </listBibl>
                </additional>
@@ -650,6 +883,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc status="draft">
+		 <change when="2026-08-05" who="#editor">Updated all sections</change>
          <change when="2025-06-25" who="#editor">Initial TEI encoding - work in progress</change>
       </revisionDesc>
    </teiHeader>
